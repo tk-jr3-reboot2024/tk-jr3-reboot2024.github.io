@@ -3,7 +3,7 @@ import React from 'react'
 function B() {
 	return (
 		<p>
-			い
+			いい
 		</p>
 	);
 }
