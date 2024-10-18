@@ -1,0 +1,49 @@
+/* Sitemap.css */
+
+/* メインメニュー */
+.main-menu {
+  max-height: 100vh;
+  width: 250px;
+  max-height: 64px;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 255);
+}
+
+/* サブメニュー */
+.sub-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  max-height: 64px;
+  background-color: rgba(255, 255, 255, 1.0);
+  transform: translateX(100%); /* 初期はメニューの外にある */
+  transition: transform 0.3s ease-in-out, opacity 0.1s ease-in-out;
+  opacity: 0;
+  padding-top: 16px;
+  z-index: 2;
+}
+
+.MuiDrawer-paper {
+  overflow: hidden; /* Drawerの内部でスクロールが発生しないようにする */
+  overflow-y: hidden;
+}
+
+
+/* サブメニューがスライドインするアニメーション */
+.sub-menu.slide-in {
+  transform: translateX(0); /* メニュー内に表示 */
+  opacity: 1;
+}
+
+/* メインメニューがサブメニューに押し出されるアニメーション */
+.sub-menu.slide-out {
+  transform: translateX(100%); /* 画面外にスライドアウト */
+  opacity: 0; /* 非表示 */
+}
+
+.sub-menu-list {
+  background-color: rgba(255, 255, 255, 1.0); /* 同じ背景色を設定 */
+  z-index: 2; /* メインメニューの上に表示 */
+}

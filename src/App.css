@@ -1,0 +1,12 @@
+/* styles.css */
+.introduction-menu {
+  transition: transform 0.3s ease-in-out; /* スライドインアニメーション */
+  transform: translateX(100%); /* 初期位置（隠す） */
+  opacity: 0; /* 初期状態は透明 */
+  margin-left: 20px; /* メニューのインデント */
+}
+
+.introduction-menu.slide-in {
+  transform: translateX(0); /* 表示位置 */
+  opacity: 1; /* 完全に表示 */
+}
