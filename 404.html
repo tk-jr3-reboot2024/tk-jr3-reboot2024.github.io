@@ -8,9 +8,10 @@
     <script>
         const path = sessionStorage.getItem('path');
         console.log(path);
-        if (path && path === '/react-from-meta-lang/other') {
+        if (path) {
           sessionStorage.removeItem('path');
-          window.history.replaceState(null, null, './other');
+          path='.'+path;
+          window.history.replaceState(null, null, path);
         }
       </script>
 </head>
