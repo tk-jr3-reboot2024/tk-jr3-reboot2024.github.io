@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.ecb948d1.js",
+    "main.js": "/static/js/main.afcec0bc.js",
     "static/js/453.cb5ddbb0.chunk.js": "/static/js/453.cb5ddbb0.chunk.js",
     "static/media/tatekan.jpg": "/static/media/tatekan.dcadafae2e5022a17c53.jpg",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.ecb948d1.js.map": "/static/js/main.ecb948d1.js.map",
+    "main.afcec0bc.js.map": "/static/js/main.afcec0bc.js.map",
     "453.cb5ddbb0.chunk.js.map": "/static/js/453.cb5ddbb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.ecb948d1.js"
+    "static/js/main.afcec0bc.js"
   ]
 }
