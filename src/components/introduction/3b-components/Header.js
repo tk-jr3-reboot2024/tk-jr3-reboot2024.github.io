@@ -29,7 +29,7 @@ const Header = () => {
 			<AppBar position="static" sx={{ backgroundColor: '#222222', color: '#fff', padding: '0px'}}>
 				<Toolbar sx={{ padding: '0px' }}>
 					<IconButton component={Link} to="/" sx={{ color: 'inherit', padding: '0', minWidth: 'auto', width:'32px', '&:hover': {color: '#ffbe00'}}}>
-						<HomeIcon fontSize="large" />
+						<HomeIcon fontSize="max(3vw,30px)" />
 					</IconButton>
 					<Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between', ml: 3 }}>
 						{menuItems.map((item, index) => {
