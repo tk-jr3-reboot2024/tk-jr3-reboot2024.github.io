@@ -16,11 +16,11 @@ import BLayout from './components/introduction/3b-components/layout';
 import BLayout2 from './components/introduction/3b-components/layout2';
 import Bnazotoki from './components/introduction/3b-components/nazotoki';
 import Layoutdefault from './components/layout';
-import ALayout2 from './components/introduction/3a-components/layout2';
 
 const Introduction = () => {
 	return (
 			<Routes>
+				<Route path="a" element={<A />} />
 				<Route path="c" element={<C />} />
 			</Routes>
 	);
@@ -61,9 +61,6 @@ function App() {
 				<Route path="introduction/b/photo" element={<BLayout><Bphoto /></BLayout>} />
 				<Route path="introduction/b/news" element={<BLayout><Bnews box_width='96%' /></BLayout>} />
 				<Route path="introduction/b/nazotoki" element={<BLayout><Bnazotoki /></BLayout>} />
-			</Routes>
-			<Routes>
-				<Route path="introduction/a" element={<ALayout2><A /></ALayout2>} />
 			</Routes>
 			<Routes>
 				<Route path="/introduction/*" element={<Introduction />} />
