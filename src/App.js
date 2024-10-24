@@ -28,16 +28,28 @@ const Introduction = () => {
 
 function App() {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+	const [isIntroductionOpensub, setIsIntroductionOpensub] = useState(false);
+	const handleIntroductionClick = () => {
+		setIsIntroductionOpensub(true); // サブメニューを表示
+	};
+	const handleBackClick = () => {
+		setIsIntroductionOpensub(false);
+	};
 	const toggleDrawer = (open) => (event) => {
 		if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
 			return;
 		}
 		setIsDrawerOpen(open);
+		if(!open){
+			setTimeout(function(){
+				handleBackClick();
+			},100);
+		}
 	};
 	return (
 		<Router>
 			<Header toggleDrawer={toggleDrawer} />
-			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} />
+			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} isIntroductionOpensub={isIntroductionOpensub} handleIntroductionClick={handleIntroductionClick} handleBackClick={handleBackClick}/>
 			<Routes>
 				<Route path="/time" element={<Layoutdefault><Time /></Layoutdefault>} />
 				<Route path="/photos" element={<Layoutdefault><Pictures /></Layoutdefault>} />

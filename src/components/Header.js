@@ -2,12 +2,16 @@ import React from 'react'
 import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useLocation } from 'react-router-dom';
+import AHeader from './introduction/3a-components/Header'
 import BHeader from './introduction/3b-components/Header';
 
 function Header({toggleDrawer}) {
 	const location=useLocation();
 	if(location.pathname.startsWith('/introduction/b')){
 		return <BHeader />;
+	}
+	if(location.pathname.startsWith('/introduction/a')){
+		return <AHeader />;
 	}
 	if(location.pathname.startsWith('/introduction')){
 		return null;
