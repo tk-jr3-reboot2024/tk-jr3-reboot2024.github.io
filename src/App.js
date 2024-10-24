@@ -16,11 +16,11 @@ import BLayout from './components/introduction/3b-components/layout';
 import BLayout2 from './components/introduction/3b-components/layout2';
 import Bnazotoki from './components/introduction/3b-components/nazotoki';
 import Layoutdefault from './components/layout';
+import ALayout2 from './components/introduction/3a-components/layout2';
 
 const Introduction = () => {
 	return (
 			<Routes>
-				<Route path="a" element={<A />} />
 				<Route path="c" element={<C />} />
 			</Routes>
 	);
@@ -28,16 +28,28 @@ const Introduction = () => {
 
 function App() {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+	const [isIntroductionOpensub, setIsIntroductionOpensub] = useState(false);
+	const handleIntroductionClick = () => {
+		setIsIntroductionOpensub(true); // サブメニューを表示
+	};
+	const handleBackClick = () => {
+		setIsIntroductionOpensub(false);
+	};
 	const toggleDrawer = (open) => (event) => {
 		if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
 			return;
 		}
 		setIsDrawerOpen(open);
+		if(!open){
+			setTimeout(function(){
+				handleBackClick();
+			},100);
+		}
 	};
 	return (
 		<Router>
 			<Header toggleDrawer={toggleDrawer} />
-			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} />
+			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} isIntroductionOpensub={isIntroductionOpensub} handleIntroductionClick={handleIntroductionClick} handleBackClick={handleBackClick}/>
 			<Routes>
 				<Route path="/time" element={<Layoutdefault><Time /></Layoutdefault>} />
 				<Route path="/photos" element={<Layoutdefault><Pictures /></Layoutdefault>} />
@@ -49,6 +61,9 @@ function App() {
 				<Route path="introduction/b/photo" element={<BLayout><Bphoto /></BLayout>} />
 				<Route path="introduction/b/news" element={<BLayout><Bnews box_width='96%' /></BLayout>} />
 				<Route path="introduction/b/nazotoki" element={<BLayout><Bnazotoki /></BLayout>} />
+			</Routes>
+			<Routes>
+				<Route path="introduction/a" element={<ALayout2><A /></ALayout2>} />
 			</Routes>
 			<Routes>
 				<Route path="/introduction/*" element={<Introduction />} />
