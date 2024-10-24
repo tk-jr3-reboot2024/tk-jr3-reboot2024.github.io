@@ -2,9 +2,9 @@ import React from 'react'
 
 function C() {
 	return (
-		<p>
+		<div>
 			う
-		</p>
+		</div>
 	);
 }
 
