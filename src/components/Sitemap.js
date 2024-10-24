@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Drawer, List, ListItem, ListItemText, Divider} from '@mui/material';
 import {Link, useLocation} from 'react-router-dom';
 import './Sitemap.css';
@@ -6,19 +6,8 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import TocIcon from '@mui/icons-material/Toc';
 
-function Sitemap({toggleDrawer, isDrawerOpen}) {
-	//const [isIntroductionOpen, setIsIntroductionOpen] = useState(false);
-	const [isIntroductionOpensub, setIsIntroductionOpensub] = useState(false);
+function Sitemap({toggleDrawer, isDrawerOpen, isIntroductionOpensub, handleIntroductionClick, handleBackClick}){
 	const location = useLocation();
-	
-	const handleIntroductionClick = () => {
-		setIsIntroductionOpensub(true); // サブメニューを表示
-	};
-
-	const handleBackClick = () => {
-		setIsIntroductionOpensub(false);
-	};
-
 	return (
 		<Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer(false)} PaperProps={{sx: {width: 250}}}>
 			<div
