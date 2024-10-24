@@ -1,10 +1,11 @@
 import React from 'react'
+import Content from './3c-components/Content';
 
 function C() {
 	return (
-		<p>
-			う
-		</p>
+		<div>
+		<Content />
+		</div>
 	);
 }
 
