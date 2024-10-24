@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import Content from "./3a-components/Content";
 
-function A() {
-	return (
-		<p>
-			あ
-		</p>
-	);
+export default function A() {
+  return (
+    <p>
+      <Content />
+    </p>
+  );
 }
-
-export default A
