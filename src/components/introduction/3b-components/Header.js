@@ -27,7 +27,7 @@ const Header = () => {
 	return (
 		<div>
 			<AppBar position="static" sx={{ backgroundColor: '#222222', color: '#fff', padding: '0px'}}>
-				<Toolbar sx={{ padding: '0px' }}>
+				<Toolbar sx={{ padding: '10px' }}>
 					<IconButton component={Link} to="/" sx={{ color: 'inherit', padding: '0', minWidth: 'auto', width:'5vw',mr: '0px',ml: '0px' , display: 'flex', justifyContent: 'center','&:hover': {color: '#ffbe00'}}}>
 						<HomeIcon sx={{ fontSize: 'min(40px,max(20px,3vw))' }} />
 					</IconButton>
