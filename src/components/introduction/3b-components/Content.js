@@ -6,19 +6,18 @@ import mainlogo from './img/tatekan.jpg';
 function Content() {
 	return (
 		<div>
-		<CssBaseline /> {/* ブラウザのデフォルトスタイルをリセット */}
-		{/* 画像 */}
+		<CssBaseline />
 		<main style={{ padding: '0px', marginTop: '0px' }}>
 		<Box
 			component="img"
 			src={mainlogo}
 			alt="mainlogo"
 			sx={{
-			width: '100%', // 画像を左右いっぱいに広げる（ビューポート幅）
-			height: '100%', // Headerの高さを反映した高さ
-			objectFit: 'cover', // アスペクト比を維持しつつ、幅いっぱいに
-			margin: 0, // 余白をなくす
-			padding: 0, // パディングをなくす
+			width: '100%',
+			height: '100%',
+			objectFit: 'cover',
+			margin: 0,
+			padding: 0
 			}}
 		/>
 		</main>
