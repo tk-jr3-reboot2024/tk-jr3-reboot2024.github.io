@@ -28,10 +28,10 @@ const Header = () => {
 		<div>
 			<AppBar position="static" sx={{ backgroundColor: '#222222', color: '#fff', padding: '0px'}}>
 				<Toolbar sx={{ padding: '0px' }}>
-					<IconButton component={Link} to="/" sx={{ color: 'inherit', padding: '0', minWidth: 'auto', width:'20px', display: 'flex', justifyContent: 'flex-end','&:hover': {color: '#ffbe00'}}}>
-						<HomeIcon fontSize="max(3vw,30px)" />
+					<IconButton component={Link} to="/" sx={{ color: 'inherit', padding: '0', minWidth: 'auto', width:'5vw',mr: '0px',ml: '0px' , display: 'flex', justifyContent: 'center','&:hover': {color: '#ffbe00'}}}>
+						<HomeIcon sx={{ fontSize: 'min(40px,max(20px,3vw))' }} />
 					</IconButton>
-					<Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between', ml: 3 }}>
+					<Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between', ml: 0}}>
 						{menuItems.map((item, index) => {
 							const isActive = getLink(item) === currentPath;
 							const isHovered = hoveredItem === item;
