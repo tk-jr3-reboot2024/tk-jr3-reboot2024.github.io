@@ -1,11 +1,13 @@
 import React from 'react';
-import {Box, CssBaseline} from '@mui/material';
+import {Box, CssBaseline, ThemeProvider} from '@mui/material';
 import News from './News';
 import mainlogo from './img/tatekan.jpg';
+import theme from "./theme";
 
 function Content() {
 	return (
 		<div>
+			<ThemeProvider theme={theme}>
 		<CssBaseline />
 		<main style={{ padding: '0px', marginTop: '0px' }}>
 		<Box
@@ -21,7 +23,7 @@ function Content() {
 			}}
 		/>
 		</main>
-		<main style={{ padding: '2vw', marginLeft: '2vw', color: 'black/*white*/'}}>
+		<main style={{ padding: '2vw', marginLeft: '2vw', color: 'white'}}>
 			<h1 style={{fontFamily: 'serif', fontSize: '40px'}}>Story</h1>
 			<p>
 			国内でも唯一の国立男子校、筑波大学附属駒場中高、通称・筑駒。
@@ -33,6 +35,7 @@ function Content() {
 		<Box sx={{padding: '2vw'}}>
 			<News box_width='70%' />
 		</Box>
+		</ThemeProvider>
 		</div>
 	);
 };
