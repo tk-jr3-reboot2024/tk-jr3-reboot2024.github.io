@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, CssBaseline, ThemeProvider} from '@mui/material';
 import News from './News';
-import mainlogo from './img/tatekan.jpg';
+import mainlogo from './img/logodesign.jpg';
 import theme from "./theme";
 
 function Content() {
