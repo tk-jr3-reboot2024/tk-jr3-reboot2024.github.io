@@ -8,20 +8,18 @@ import Box from '@mui/material/Box';
 const Header = () => {
 	const location = useLocation();
 	const [hoveredItem, setHoveredItem] = useState(null);
-	const menuItems = ['Home', 'Web謎', 'News', 'Photos'];
+	const menuItems = ['Home', 'News', 'Photos'];
 	const currentPath = location.pathname;
 	const getLink = (item) => {
 		switch (item) {
 			case 'Home':
-				return '/introduction/b';
-			case 'Web謎':
-				return '/introduction/b/nazotoki';
+				return '/introduction/c';
 			case 'News':
-				return '/introduction/b/news';
+				return '/introduction/c/news';
 			case 'Photos':
-				return '/introduction/b/photo';
+				return '/introduction/c/photo';
 			default:
-				return '/introduction/b';
+				return '/introduction/c';
 		}
 	};
 	return (
