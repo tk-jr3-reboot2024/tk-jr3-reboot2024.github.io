@@ -4,7 +4,7 @@ import Content from './3c-components/Content';
 function C() {
 	return (
 		<div>
-		<Content />
+			<Content />
 		</div>
 	);
 }
