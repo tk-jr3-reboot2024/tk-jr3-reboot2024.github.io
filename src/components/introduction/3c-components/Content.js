@@ -55,28 +55,29 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small">詳細はこちら</Button>
+									<Button size="small" href="/information/c/about">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
 						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
 							<Card sx={{ minWidth: 275 }}>
 								<CardContent>
-									<Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-										Word of the Day
-									</Typography>
 									<Typography variant="h5" component="div">
-										oh
+										ニュース
 									</Typography>
-									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>adjective</Typography>
+									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+										<i>News</i>
+										</Typography>
 									<Typography variant="body2">
-										well meanding and kindly.
+										・公演に関する最新情報
 										<br />
-										{'"a benevolent smile"'}
+										・サイト更新情報
+										<br />
+										その他新着情報全般を掲載
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small">Learn More</Button>
+									<Button size="small" href="/information/c/news">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>

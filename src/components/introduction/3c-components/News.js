@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Typography, Box, CssBaseline } from '@mui/material';
+import { Typography, Box, CssBaseline } from '@mui/material';
+import Grid from '@mui/material/Grid2';
 
 function News({ box_width }) {
 	const NewsItems = [
