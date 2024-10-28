@@ -46,7 +46,7 @@ function Content() {
 									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 										<i>About</i>
 									</Typography>
-									<Typography variant="body2" sx={{minHeight: 48}}>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
 										・公演の時間
 										<br />
 										・上演に際してお客様へのお願い
@@ -57,7 +57,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6}}>
+						<Grid size={{ xs: 12, sm: 6 }}>
 							<Card sx={{ minWidth: 275 }}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -65,8 +65,8 @@ function Content() {
 									</Typography>
 									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 										<i>Story & Cast</i>
-										</Typography>
-									<Typography variant="body2" sx={{minHeight: 48}}>
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
 										・「翔んで筑駒」とは
 										<br />
 										・キャスト紹介
@@ -85,13 +85,13 @@ function Content() {
 									</Typography>
 									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 										<i>Introduction to Tsukukoma</i>
-										</Typography>
-									<Typography variant="body2" sx={{minHeight: 48}}>
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
 										映画の中でも出てくる「ありのままの筑駒」の様子を詳しくお伝えします！
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/access">Learn More</Button>
+									<Button size="small" href="/information/c/tsukukoma">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -103,13 +103,13 @@ function Content() {
 									</Typography>
 									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 										<i>Behind the Scenes</i>
-										</Typography>
-									<Typography variant="body2" sx={{minHeight: 48}}>
-										「翔んで筑駒」を上映している3-CHRへのアクセス
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
+										「翔んで筑駒」の制作風景や制作秘話を公開!
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/access">Learn More</Button>
+									<Button size="small" href="/information/c/making">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -121,9 +121,9 @@ function Content() {
 									</Typography>
 									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 										<i>Access</i>
-										</Typography>
-									<Typography variant="body2" sx={{minHeight: 48}}>
-										「翔んで筑駒」の制作風景や制作秘話を公開!
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
+										「翔んで筑駒」を上映している3-CHRへのアクセス
 									</Typography>
 								</CardContent>
 								<CardActions>
