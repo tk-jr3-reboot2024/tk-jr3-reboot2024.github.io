@@ -32,8 +32,8 @@ function Content() {
 						生徒たちをそのカリスマでまとめ上げ、改革をしようとしていくが…?
 					</p>
 				</main>
-				<Box sx={{ padding: '2vw' }}>
-					<News box_width='100%' />
+				<Box sx={{ padding: '2vw', box_width: '100%' }}>
+					<News />
 				</Box>
 				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw' }}>
 					<Grid container spacing={2}>

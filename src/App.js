@@ -22,7 +22,6 @@ const Introduction = () => {
 	return (
 			<Routes>
 				<Route path="a" element={<A />} />
-				<Route path="c" element={<C />} />
 			</Routes>
 	);
 };
@@ -65,7 +64,10 @@ function App() {
 			</Routes>
 			<Routes>
 				<Route path="/introduction/*" element={<Introduction />} />
-				<Route path="/introduction/c/news" element={<CNews />}/>
+			</Routes>
+			<Routes>
+				<Route path="introduction/c" element={<C />} />
+				<Route path="introduction/c/news" element={<CNews />}/>
 			</Routes>
 		</Router>
 	);

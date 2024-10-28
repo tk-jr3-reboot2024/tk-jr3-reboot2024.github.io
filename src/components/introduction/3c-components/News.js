@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Box, CssBaseline } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
-function News({ box_width }) {
+function News() {
 	const NewsItems = [
 		{
 			date: '2024/10/26',
@@ -14,7 +14,7 @@ function News({ box_width }) {
 		<div>
 			<CssBaseline />
 			<h1>Hello</h1>
-			<Box sx={{ backgroundColor: '#f0f4fa', padding: '2vw', width: box_width }}>
+			<Box sx={{ backgroundColor: '#f0f4fa', padding: '2vw'}}>
 				<Grid container alignItems="center" sx={{ borderBottom: '1px dotted #000', padding: '4px' }}>
 					<Typography variant="h4" sx={{ fontFamily: 'serif' }}>News</Typography>
 				</Grid>
