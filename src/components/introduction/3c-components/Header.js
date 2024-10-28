@@ -41,8 +41,8 @@ function BasicMenu() {
 						}}
 					>
 						<MenuItem onClick={handleClose}><Link href="/" underline="none">中3HPトップ</Link></MenuItem>
-						<MenuItem onClick={handleClose}><Link href="/" underline="none">3-CHRトップ</Link></MenuItem>
-						<MenuItem onClick={handleClose}><Link href="/" underline="none">公演について</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c" underline="none">3-CHRトップ</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none">公演について</Link></MenuItem>
 					</Menu>
 					<Typography variant="h6" noWrap>
 						翔んで筑駒
