@@ -2,8 +2,8 @@ import React from 'react';
 //import './Header.css'; // CSSを適用するファイルをインポート
 import { AppBar, Toolbar, Typography, IconButton, Menu, MenuItem, Link } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
-import Box from '@mui/material/Box';
+//import HomeIcon from '@mui/icons-material/Home';
+//import Box from '@mui/material/Box';
 import { green } from '@mui/material/colors'
 
 function BasicMenu() {
