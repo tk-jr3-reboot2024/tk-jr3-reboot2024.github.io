@@ -33,7 +33,7 @@ function Content() {
 					</p>
 				</main>
 				<Box sx={{ padding: '2vw' }}>
-					<News box_width='70%' />
+					<News box_width='100%' />
 				</Box>
 				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw' }}>
 					<Grid container spacing={2}>
@@ -78,6 +78,27 @@ function Content() {
 								</CardContent>
 								<CardActions>
 									<Button size="small" href="/information/c/news">Learn More</Button>
+								</CardActions>
+							</Card>
+						</Grid>
+						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+							<Card sx={{ minWidth: 275 }}>
+								<CardContent>
+									<Typography variant="h5" component="div">
+										アクセス
+									</Typography>
+									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+										<i>Access</i>
+										</Typography>
+									<Typography variant="body2">
+										「翔んで筑駒」を上映している3-CHRへのアクセス
+										<br />
+										<br />
+										<br />
+									</Typography>
+								</CardContent>
+								<CardActions>
+									<Button size="small" href="/information/c/access">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
