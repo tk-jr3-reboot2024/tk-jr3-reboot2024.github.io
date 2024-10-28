@@ -4,9 +4,9 @@ import { Grid, Typography, Box, CssBaseline } from '@mui/material';
 function News({ box_width }) {
 	const NewsItems = [
 		{
-			date: '2024/10/20',
+			date: '2024/10/26',
 			title: 'サイトを公開しました',
-			description: '3BデコRe:createのHPを公開しました！'
+			description: '3Cデコ「翔んで筑駒」のHPを公開しました！'
 		}
 	];
 	return (
