@@ -37,7 +37,7 @@ function Content() {
 				</Box>
 				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw' }}>
 					<Grid container spacing={2}>
-						<Grid size={{ xs: 12, md: 6 }}>
+						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
 							<Card sx={{ minWidth: 275 }}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -59,7 +59,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, md: 6 }}>
+						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
 							<Card sx={{ minWidth: 275 }}>
 								<CardContent>
 									<Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
