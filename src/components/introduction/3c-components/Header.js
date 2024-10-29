@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography, IconButton, Menu, MenuItem, Link } from '@
 import MenuIcon from '@mui/icons-material/Menu';
 //import HomeIcon from '@mui/icons-material/Home';
 //import Box from '@mui/material/Box';
-import { green } from '@mui/material/colors'
+import { green, grey } from '@mui/material/colors'
 
 function BasicMenu() {
 	const [anchorEl, setAnchorEl] = React.useState(null);
@@ -40,9 +40,9 @@ function BasicMenu() {
 							'aria-labelledby': 'basic-button',
 						}}
 					>
-						<MenuItem onClick={handleClose}><Link href="/" underline="none">中3HPトップ</Link></MenuItem>
-						<MenuItem onClick={handleClose}><Link href="/introduction/c" underline="none">3-CHRトップ</Link></MenuItem>
-						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none">公演について</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/" underline="none" sx={{ color: grey[900] }} >中3HPトップ</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c" underline="none" sx={{ color: grey[900] }} >3-CHRトップ</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none" sx={{ color: grey[900] }} >公演について</Link></MenuItem>
 					</Menu>
 					<Typography variant="h6" noWrap>
 						翔んで筑駒
