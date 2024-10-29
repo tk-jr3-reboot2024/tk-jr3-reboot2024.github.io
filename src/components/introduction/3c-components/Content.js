@@ -37,7 +37,7 @@ function Content() {
 					<Grid container spacing={0}>
 					<Box sx={{ padding: '0.5vw', box_width: '100%', background: grey[50], flexGrow: '1' }} ><Typography variant='h6'>新着お知らせ</Typography></Box>
 						<Grid size={12}>
-							<Card sx={{ minWidth: 275, background: grey[200] }}>
+							<Card sx={{ minWidth: 275, background: grey[200], borderRadius: '0' }}>
 								<CardActionArea href='/introduction/c/news'>
 									<CardContent>
 										10/29　<Chip label="お知らせ" variant="outlined" color='success' />　一般審査による1日目一部公演制限について
@@ -47,7 +47,7 @@ function Content() {
 							</Card>
 						</Grid>
 						<Grid size={12}>
-							<Card sx={{ minWidth: 275, background: grey[200] }}>
+							<Card sx={{ minWidth: 275, background: grey[200], borderRadius: '0' }}>
 								<CardActionArea href='/introduction/c/news'>
 									<CardContent>
 										10/26　<Chip label="サイト更新" variant="outlined" color='secondary' />　ホームページを開設しました!

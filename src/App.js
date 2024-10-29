@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Sitemap from './components/Sitemap';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import A from './components/introduction/3A';
 import B from './components/introduction/3B';
 import C from './components/introduction/3C';
@@ -21,9 +21,9 @@ import CLayout from './components/introduction/3c-components/layout';
 
 const Introduction = () => {
 	return (
-			<Routes>
-				<Route path="a" element={<A />} />
-			</Routes>
+		<Routes>
+			<Route path="a" element={<A />} />
+		</Routes>
 	);
 };
 
@@ -41,16 +41,16 @@ function App() {
 			return;
 		}
 		setIsDrawerOpen(open);
-		if(!open){
-			setTimeout(function(){
+		if (!open) {
+			setTimeout(function () {
 				handleBackClick();
-			},100);
+			}, 100);
 		}
 	};
 	return (
 		<Router>
 			<Header toggleDrawer={toggleDrawer} />
-			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} isIntroductionOpensub={isIntroductionOpensub} handleIntroductionClick={handleIntroductionClick} handleBackClick={handleBackClick}/>
+			<Sitemap toggleDrawer={toggleDrawer} isDrawerOpen={isDrawerOpen} isIntroductionOpensub={isIntroductionOpensub} handleIntroductionClick={handleIntroductionClick} handleBackClick={handleBackClick} />
 			<Routes>
 				<Route path="/time" element={<Layoutdefault><Time /></Layoutdefault>} />
 				<Route path="/photos" element={<Layoutdefault><Pictures /></Layoutdefault>} />
@@ -68,7 +68,7 @@ function App() {
 			</Routes>
 			<Routes>
 				<Route path="introduction/c" element={<CLayout><C /></CLayout>} />
-				<Route path="introduction/c/news" element={<CNews />}/>
+				<Route path="introduction/c/news" element={<CLayout><CNews /></CLayout>} />
 			</Routes>
 		</Router>
 	);
