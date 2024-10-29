@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.e667a082.js",
+    "main.js": "/static/js/main.1cc09862.js",
     "static/js/453.cb5ddbb0.chunk.js": "/static/js/453.cb5ddbb0.chunk.js",
     "static/media/tatekan.jpg": "/static/media/tatekan.dcadafae2e5022a17c53.jpg",
+    "static/media/Recreate_logo_negate.png": "/static/media/Recreate_logo_negate.b5ddb14b30992f00573c.png",
     "static/media/logodesign.jpg": "/static/media/logodesign.aff6f345e781df132e13.jpg",
+    "static/media/Recreate_subtitle_negate.png": "/static/media/Recreate_subtitle_negate.be19d53efbc257b16fea.png",
     "static/media/PamphletLogo.jpg": "/static/media/PamphletLogo.01e4c9d2bdb955d97ca9.jpg",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.e667a082.js.map": "/static/js/main.e667a082.js.map",
+    "main.1cc09862.js.map": "/static/js/main.1cc09862.js.map",
     "453.cb5ddbb0.chunk.js.map": "/static/js/453.cb5ddbb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.e667a082.js"
+    "static/js/main.1cc09862.js"
   ]
 }
