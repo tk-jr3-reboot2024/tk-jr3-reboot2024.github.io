@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 
-const BLayout = ({ children }) => {
+const CLayout = ({ children }) => {
 	return (
 		<Box sx={{
 			backgroundColor: '#222222',
@@ -14,4 +14,4 @@ const BLayout = ({ children }) => {
 	);
 };
 
-export default BLayout;
+export default CLayout;

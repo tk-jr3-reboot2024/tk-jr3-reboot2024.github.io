@@ -17,6 +17,7 @@ import BLayout2 from './components/introduction/3b-components/layout2';
 import Bnazotoki from './components/introduction/3b-components/nazotoki';
 import Layoutdefault from './components/layout';
 import CNews from './components/introduction/3c-components/News';
+import CLayout from './components/introduction/3c-components/layout';
 
 const Introduction = () => {
 	return (
@@ -66,7 +67,7 @@ function App() {
 				<Route path="/introduction/*" element={<Introduction />} />
 			</Routes>
 			<Routes>
-				<Route path="introduction/c" element={<C />} />
+				<Route path="introduction/c" element={<CLayout><C /></CLayout>} />
 				<Route path="introduction/c/news" element={<CNews />}/>
 			</Routes>
 		</Router>

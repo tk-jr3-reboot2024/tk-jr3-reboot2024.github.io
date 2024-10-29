@@ -1,9 +1,10 @@
 import React from 'react';
-import { Box, CssBaseline, ThemeProvider, Card, CardContent, Typography, CardActions, Button, CardMedia } from '@mui/material';
+import { Box, CssBaseline, ThemeProvider, Card, CardContent, Typography, CardActions, Button, CardMedia, CardActionArea, Divider, Chip } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import News from './News';
 import mainlogo from './img/logodesign.jpg';
 import theme from "./theme";
+import { grey } from '@mui/material/colors';
 
 function Content() {
 	return (
@@ -33,7 +34,28 @@ function Content() {
 					</p>
 				</main>
 				<Box sx={{ padding: '2vw', box_width: '100%' }}>
-					<News />
+					<Grid container spacing={0}>
+					<Box sx={{ padding: '0.5vw', box_width: '100%', background: grey[50], flexGrow: '1' }} ><Typography variant='h6'>新着お知らせ</Typography></Box>
+						<Grid size={12}>
+							<Card sx={{ minWidth: 275, background: grey[200] }}>
+								<CardActionArea href='/introduction/c/news'>
+									<CardContent>
+										10/29　<Chip label="お知らせ" variant="outlined" color='success' />　一般審査による1日目一部公演制限について
+									</CardContent>
+									<Divider />
+								</CardActionArea>
+							</Card>
+						</Grid>
+						<Grid size={12}>
+							<Card sx={{ minWidth: 275, background: grey[200] }}>
+								<CardActionArea href='/introduction/c/news'>
+									<CardContent>
+										10/26　<Chip label="サイト更新" variant="outlined" color='secondary' />　ホームページを開設しました!
+									</CardContent>
+								</CardActionArea>
+							</Card>
+						</Grid>
+					</Grid>
 				</Box>
 				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw' }}>
 					<Grid container spacing={2}>
@@ -53,7 +75,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/about">詳細はこちら</Button>
+									<Button size="small" href="/introduction/c/about">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -73,7 +95,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/news">Learn More</Button>
+									<Button size="small" href="/introduction/c/news">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -91,7 +113,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/tsukukoma">Learn More</Button>
+									<Button size="small" href="/introduction/c/tsukukoma">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -109,7 +131,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/making">Learn More</Button>
+									<Button size="small" href="/introduction/c/making">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -127,7 +149,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/access">Learn More</Button>
+									<Button size="small" href="/introduction/c/access">Learn More</Button>
 								</CardActions>
 							</Card>
 						</Grid>
