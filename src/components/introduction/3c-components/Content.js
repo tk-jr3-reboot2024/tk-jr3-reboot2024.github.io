@@ -53,7 +53,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/information/c/about">詳細はこちら</Button>
+									<Button size="small" href="/introduction/c/about">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
