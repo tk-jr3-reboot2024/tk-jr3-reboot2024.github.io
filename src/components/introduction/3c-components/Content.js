@@ -33,7 +33,7 @@ function Content() {
 						生徒たちをそのカリスマでまとめ上げ、改革をしようとしていくが…?
 					</p>
 				</main>
-				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw' }}>
+				<Box display='grid' sx={{ flexGrow: '1', padding: '2vw',  }}>
 					<Grid container spacing={2}>
 						<Grid size={12}>
 							<Card sx={{ minWidth: 275, borderRadius: '4px 4px 0 0' }}>
