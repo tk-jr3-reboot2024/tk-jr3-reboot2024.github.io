@@ -33,10 +33,10 @@ function Content() {
 							生徒たちをそのカリスマでまとめ上げ、改革をしようとしていくが…?
 						</p>
 					</main>
-					<Box display='grid' sx={{ flexGrow: '1', padding: '2vw', }}>
+					<Box display='grid' sx={{ flexGrow: '1', padding: '0', }}>
 						<Grid container spacing={2}>
 							<Grid size={12}>
-								<Card sx={{ minWidth: 275, borderRadius: '4px 4px 0 0' }}>
+								<Card sx={{borderRadius: '4px 4px 0 0' }}>
 									<CardContent>
 										<Typography variant="h5">新着お知らせ</Typography>
 										<Typography sx={{ color: 'text.secondary' }}>
@@ -44,7 +44,7 @@ function Content() {
 										</Typography>
 									</CardContent>
 								</Card>
-								<Card sx={{ minWidth: 275, background: grey[100], borderRadius: '0' }}>
+								<Card sx={{background: grey[100], borderRadius: '0' }}>
 									<CardActionArea href='/introduction/c/news/2'>
 										<CardContent>
 											10/29　<Chip label="お知らせ" variant="outlined" color='success' />　11/1(金)一般審査の実施について
@@ -52,21 +52,21 @@ function Content() {
 										<Divider />
 									</CardActionArea>
 								</Card>
-								<Card sx={{ minWidth: 275, background: grey[100], borderRadius: '0' }}>
+								<Card sx={{background: grey[100], borderRadius: '0' }}>
 									<CardActionArea href='/introduction/c/news/1'>
 										<CardContent>
 											10/26　<Chip label="サイト更新" variant="outlined" color='secondary' />　ホームページを開設しました!
 										</CardContent>
 									</CardActionArea>
 								</Card>
-								<Card sx={{ minWidth: 275, borderRadius: '0 0 4px 4px' }}>
+								<Card sx={{borderRadius: '0 0 4px 4px' }}>
 									<CardActions>
 										<Button size="small" href="/introduction/c/news">一覧はこちら</Button>
 									</CardActions>
 								</Card>
 							</Grid>
 							<Grid size={{ xs: 12, lg: 6 }}>
-								<Card sx={{ minWidth: 275 }}>
+								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
 											公演のご案内
@@ -86,7 +86,7 @@ function Content() {
 								</Card>
 							</Grid>
 							<Grid size={{ xs: 12, sm: 6 }}>
-								<Card sx={{ minWidth: 275 }}>
+								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
 											ストーリーとキャスト
@@ -106,7 +106,7 @@ function Content() {
 								</Card>
 							</Grid>
 							<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-								<Card sx={{ minWidth: 275 }}>
+								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
 											筑駒の学校紹介
@@ -124,7 +124,7 @@ function Content() {
 								</Card>
 							</Grid>
 							<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-								<Card sx={{ minWidth: 275 }}>
+								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
 											映画制作の裏側
@@ -142,7 +142,7 @@ function Content() {
 								</Card>
 							</Grid>
 							<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-								<Card sx={{ minWidth: 275 }}>
+								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
 											アクセス
