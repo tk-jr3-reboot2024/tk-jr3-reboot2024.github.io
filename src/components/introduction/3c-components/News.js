@@ -7,8 +7,8 @@ import theme from "./theme";
 function News() {
 	return (
 		<div>
-			<CssBaseline />
 			<ThemeProvider theme={theme}>
+			<CssBaseline />
 				<Box sx={{ padding: '2vw', box_width: '100%' }}>
 					<Grid container spacing={0}>
 						<Box sx={{ padding: '0.5vw', box_width: '100%', background: grey[50], flexGrow: '1' }} ><Typography variant='h6'>お知らせ一覧</Typography></Box>
