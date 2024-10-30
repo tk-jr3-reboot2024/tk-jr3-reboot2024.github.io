@@ -110,6 +110,7 @@ function Content() {
 					ease: 'easeInOut',
 					repeat: Infinity,
 					repeatType: 'loop',
+					repeatDelay: 0.8
 				}}
 				style={{
 					width: '1px',
