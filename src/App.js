@@ -18,8 +18,9 @@ import Bnazotoki from './components/introduction/3b-components/nazotoki';
 import Beditorial_form from './components/introduction/3b-components/smartphone/editorial/editorial_form';
 import Beditorial from './components/introduction/3b-components/smartphone/editorial/editorial_content';
 import Layoutdefault from './components/layout';
-import CNews from './components/introduction/3c-components/News';
 import CLayout from './components/introduction/3c-components/layout';
+import CAbout from './components/introduction/3c-components/about';
+import CNews from './components/introduction/3c-components/News';
 import CNews1 from './components/introduction/3c-components/news/1';
 import CNews2 from './components/introduction/3c-components/news/2';
 
@@ -74,6 +75,7 @@ function App() {
 			</Routes>
 			<Routes>
 				<Route path="introduction/c" element={<CLayout><C /></CLayout>} />
+				<Route path="introduction/c/about" element={<CLayout><CAbout /></CLayout>} />
 				<Route path="introduction/c/news" element={<CLayout><CNews /></CLayout>} />
 				<Route path="introduction/c/news/1" element={<CLayout><CNews1 /></CLayout>} />
 				<Route path="introduction/c/news/2" element={<CLayout><CNews2 /></CLayout>} />

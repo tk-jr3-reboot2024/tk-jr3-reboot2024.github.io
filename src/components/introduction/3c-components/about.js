@@ -5,27 +5,42 @@ import { grey } from '@mui/material/colors';
 import theme from "./theme";
 
 function News1() {
-	return (
-		<div>
-			<ThemeProvider theme={theme}>
-					<CssBaseline />
-					<Box sx={{ padding: '2vw', margin: '0', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
-						<Box align='right'><Typography variant="p" align='right'><Link href="/introduction/c/news" color="inherit" >←ニュース一覧へ戻る</Link></Typography></Box>
-						<Typography variant='h5'><b>11/1(金)一般審査の実施について</b></Typography>
-						<Typography variant=""><Chip label="お知らせ" variant="outlined" color='success' /> 10/26</Typography>
-						<Divider />
-						<br />
-						<Typography variant="p">
-                            　筑駒文化祭では、例年審査委員会により各デコの審査が行われています。
-							<br />
-                            　今年の3-CHRは文化祭1日目、11/1(金)の<u>10:05~10:25</u>の回に審査が行われます。
-                            <br />
-                            　審査委員が9人程度来訪し映画を観るため、一般のお客様に提供できる席数が減ることになります。お客様にはご迷惑をおかけいたしますが、ご理解とご協力をお願いします。
-						</Typography>
-					</Box>
-				</ThemeProvider>
-		</div>
-	);
+    return (
+        <div>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <Box sx={{ padding: '2vw', margin: '0', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
+                    <Typography variant="h5"><b>公演のご案内</b></Typography>
+                    <Typography sx={{ color: 'text.secondary' }}>
+                        <i>About</i>
+                    </Typography>
+                    <Divider />
+                    <br />
+                    <Typography variant='h6'>【公演の形式と時間について】</Typography>
+                    <Typography variant="p">
+                        　今年の3-CHRでは映画「翔んで筑駒」を上演しています。
+                        <br />
+                        　公演は毎時05~25分/35~55分に行っています。各日の閉場前30分の回は公演がありません。
+                        <br />
+                        　日程ごとの公演時間帯は次の通りです。
+                        <br />
+                        　　11/1(金)...初回9:35~、最終回15:35~
+                        <br />
+                        　　11/2(土)...初回9:35~、最終回<u>15:05~</u>
+                        <br />
+                        　　11/3(日)...初回9:35~、最終回15:35~
+                        <br />
+                        　なお、全ての回で同じ内容の映画が上映されます。
+                    </Typography>
+                    <br />
+                    　
+                    <Divider />
+                    <br />
+                    <Typography variant='h6'>【お客様へのお願い】</Typography>
+                </Box>
+            </ThemeProvider>
+        </div>
+    );
 }
 
 export default News1
