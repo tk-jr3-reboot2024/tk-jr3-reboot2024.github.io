@@ -21,6 +21,7 @@ import Layoutdefault from './components/layout';
 import CNews from './components/introduction/3c-components/News';
 import CLayout from './components/introduction/3c-components/layout';
 import CNews1 from './components/introduction/3c-components/news/1';
+import CNews2 from './components/introduction/3c-components/news/2';
 
 const Introduction = () => {
 	return (
@@ -75,6 +76,7 @@ function App() {
 				<Route path="introduction/c" element={<CLayout><C /></CLayout>} />
 				<Route path="introduction/c/news" element={<CLayout><CNews /></CLayout>} />
 				<Route path="introduction/c/news/1" element={<CLayout><CNews1 /></CLayout>} />
+				<Route path="introduction/c/news/2" element={<CLayout><CNews2 /></CLayout>} />
 			</Routes>
 		</Router>
 	);
