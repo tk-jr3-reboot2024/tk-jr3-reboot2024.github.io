@@ -37,14 +37,12 @@ function Content() {
 					<Grid container spacing={2}>
 						<Grid size={12}>
 							<Card sx={{ minWidth: 275, borderRadius: '4px 4px 0 0' }}>
-								<CardActionArea href='/introduction/c/news'>
-									<CardContent>
-										<Typography variant="h5">新着お知らせ</Typography>
-										<Typography sx={{ color: 'text.secondary'}}>
-											<i>News</i>
-										</Typography>
-									</CardContent>
-								</CardActionArea>
+								<CardContent>
+									<Typography variant="h5">新着お知らせ</Typography>
+									<Typography sx={{ color: 'text.secondary' }}>
+										<i>News</i>
+									</Typography>
+								</CardContent>
 							</Card>
 							<Card sx={{ minWidth: 275, background: grey[100], borderRadius: '0' }}>
 								<CardActionArea href='/introduction/c/news/2'>
@@ -63,7 +61,7 @@ function Content() {
 							</Card>
 							<Card sx={{ minWidth: 275, borderRadius: '0 0 4px 4px' }}>
 								<CardActions>
-									<Button size="small" href="/introduction/c/news">詳細はこちら</Button>
+									<Button size="small" href="/introduction/c/news">一覧はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
