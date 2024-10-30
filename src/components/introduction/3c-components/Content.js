@@ -101,7 +101,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/introduction/c/news">Learn More</Button>
+									<Button size="small" href="/introduction/c/story">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -119,7 +119,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/introduction/c/tsukukoma">Learn More</Button>
+									<Button size="small" href="/introduction/c/tsukukoma">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -137,7 +137,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/introduction/c/making">Learn More</Button>
+									<Button size="small" href="/introduction/c/making">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -155,7 +155,7 @@ function Content() {
 									</Typography>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="/introduction/c/access">Learn More</Button>
+									<Button size="small" href="/introduction/c/access">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>

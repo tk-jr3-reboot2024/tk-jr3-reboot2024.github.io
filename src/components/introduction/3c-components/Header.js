@@ -27,7 +27,7 @@ function BasicMenu() {
 						aria-expanded={open ? 'true' : undefined}
 						onClick={handleClick}
 						size="large"
-						sx={{ color: green[500] }}
+						sx={{ color: grey[1000] }}
 					>
 						<MenuIcon />
 					</IconButton>

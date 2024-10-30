@@ -10,6 +10,9 @@ const theme = createTheme({
             default: "#222222",
         },
         text: { primary: "#000000" },
+        typography: {
+            fontFamily: 'Raleway, Arial',
+          },
     },
 });
 
