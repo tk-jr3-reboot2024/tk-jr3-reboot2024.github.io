@@ -10,9 +10,11 @@ function News1() {
             <ThemeProvider theme={theme}>
                 <CssBaseline />
                 <Box sx={{ padding: '2vw', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
-                    <Typography variant="h5"><b>公演のご案内</b></Typography>
-                    <Typography sx={{ color: 'text.secondary' }}>
-                        <i>About</i>
+                    <Typography variant="h5" component="div">
+                        アクセス
+                    </Typography>
+                    <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+                        <i>Access</i>
                     </Typography>
                     <Divider sx={{ margin: '8px' }} />
                     <Typography variant='h6'>【公演の形式と時間について】</Typography>
