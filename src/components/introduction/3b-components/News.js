@@ -1,8 +1,15 @@
 import React from 'react';
 import { Grid, Typography, Box, CssBaseline } from '@mui/material';
+import theme from './smartphone/theme';
+import { ThemeProvider } from '@mui/material/styles';
 
 function News({box_width}) {
 	const NewsItems=[
+		{
+			date: '2024/10/31',
+			title: '解説を閲覧できるようになりました',
+			description: '3Bデコの公演の最後にパスワードを公開します。それをEditorialページの入力欄に入力すると解説を閲覧することができます。'
+		},
 		{
 			date: '2024/10/20',
 			title: 'サイトを公開しました',
@@ -11,6 +18,7 @@ function News({box_width}) {
 	];
 	return (
 		<div>
+			<ThemeProvider theme={theme}>
 			<CssBaseline />
 			<Box sx={{ backgroundColor: '#f0f4fa', padding: '2vw', width: box_width}}>
 				<Grid container alignItems="center" sx={{ borderBottom: '1px dotted #000', padding: '4px' }}>
@@ -32,6 +40,7 @@ function News({box_width}) {
 					</Grid>
 				))}
 			</Box>
+			</ThemeProvider>
 		</div>
 	);
 }
