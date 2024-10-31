@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2';
 import News from './News';
 import titlelogo1 from './img/titlelogo1.jpg';
 import titlelogo2 from './img/titlelogo2.jpg';
-import titlelogo3 from './img/titlelogo3.png';
+import titlelogo3 from './img/titlelogo3.jpg';
 import theme from "./theme";
 import { grey } from '@mui/material/colors';
 
