@@ -13,8 +13,7 @@ function News1() {
 						<Box align='right'><Typography variant="p" align='right'><Link href="/introduction/c/news" color="inherit" >←ニュース一覧へ戻る</Link></Typography></Box>
 						<Typography variant='h5'><b>ホームページを開設しました!</b></Typography>
 						<Typography variant=""><Chip label="サイト更新" variant="outlined" color='secondary' margin='4px' /> 10/26</Typography>
-						<Divider />
-						<br />
+						<Divider sx={{margin: '8px'}}/>
 						<Typography variant="p">
 							　2024年筑駒文化祭、中学3-CHRデコ「翔んで筑駒」公式ホームページを開設しました!
 							<br />

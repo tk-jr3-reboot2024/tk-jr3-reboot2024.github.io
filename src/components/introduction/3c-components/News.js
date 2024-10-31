@@ -23,7 +23,7 @@ function News() {
 							<Card sx={{background: grey[100], borderRadius: '0' }}>
 								<CardActionArea href='/introduction/c/news/2'>
 									<CardContent>
-										10/29　<Chip label="お知らせ" variant="outlined" color='success' />　11/1(金)一般審査の実施について
+										10/29　<Chip label="お知らせ" variant="outlined" color='success' />　11/1(金)審査の実施について
 									</CardContent>
 									<Divider />
 								</CardActionArea>

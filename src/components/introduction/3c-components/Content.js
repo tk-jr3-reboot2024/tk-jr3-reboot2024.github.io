@@ -47,7 +47,7 @@ function Content() {
 								<Card sx={{background: grey[100], borderRadius: '0' }}>
 									<CardActionArea href='/introduction/c/news/2'>
 										<CardContent>
-											10/29　<Chip label="お知らせ" variant="outlined" color='success' />　11/1(金)一般審査の実施について
+											10/29　<Chip label="お知らせ" variant="outlined" color='success' />　11/1(金)審査の実施について
 										</CardContent>
 										<Divider />
 									</CardActionArea>
@@ -109,13 +109,13 @@ function Content() {
 								<Card sx={{}}>
 									<CardContent>
 										<Typography variant="h5" component="div">
-											筑駒の学校紹介
+											「ありのままの筑駒」学校紹介
 										</Typography>
 										<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 											<i>Introduction to Tsukukoma</i>
 										</Typography>
 										<Typography variant="body2" sx={{ minHeight: 48 }}>
-											映画の中でも出てくる「ありのままの筑駒」の様子を詳しくお伝えします！
+											映画の中でも登場する「ありのままの筑駒」の様子を詳しくお伝えします！
 										</Typography>
 									</CardContent>
 									<CardActions>
