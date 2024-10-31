@@ -10,7 +10,7 @@ import Content from './components/Content';
 import Pictures from './components/pictures';
 import Time from './components/time';
 import News from './components/news';
-import googlecheck from './components/googlecheck'
+import Googlecheck from './components/googlecheck'
 import Bphoto from './components/introduction/3b-components/photo';
 import Bnews from './components/introduction/3b-components/News';
 import BLayout from './components/introduction/3b-components/layout';
@@ -66,7 +66,7 @@ function App() {
 				<Route path="/photos" element={<Layoutdefault><Pictures /></Layoutdefault>} />
 				<Route path="/" element={<Layoutdefault><Content /></Layoutdefault>} />
 				<Route parh="/news" element={<Layoutdefault><News /></Layoutdefault>} />
-				<Route path="/google2f0d70d16e373356.txt" element={<googlecheck />} />
+				<Route path="/google2f0d70d16e373356.txt" element={<Googlecheck />} />
 			</Routes>
 			<Routes>
 				<Route path="introduction/b" element={<BLayout2><B /></BLayout2>} />
