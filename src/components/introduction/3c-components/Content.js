@@ -77,7 +77,7 @@ function Content() {
 										<Typography variant="body2" sx={{ minHeight: 48 }}>
 											・公演の時間
 											<br />
-											・上演に際してお客様へのお願い
+											・上映中、お客様へのお願い
 										</Typography>
 									</CardContent>
 									<CardActions>

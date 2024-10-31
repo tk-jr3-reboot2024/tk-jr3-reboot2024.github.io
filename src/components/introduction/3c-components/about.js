@@ -9,16 +9,15 @@ function News1() {
         <div >
             <ThemeProvider theme={theme}>
                 <CssBaseline />
-                <Box sx={{ padding: '2vw', margin: '0', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
+                <Box sx={{ padding: '2vw', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
                     <Typography variant="h5"><b>公演のご案内</b></Typography>
                     <Typography sx={{ color: 'text.secondary' }}>
                         <i>About</i>
                     </Typography>
-                    <Divider />
-                    <br />
+                    <Divider sx={{ margin: '8px' }} />
                     <Typography variant='h6'>【公演の形式と時間について】</Typography>
                     <Typography variant="p">
-                        今年の3-CHRでは映画「翔んで筑駒」を上演しています。
+                        今年の3-CHRでは映画「翔んで筑駒」を上映しています。
                         <br />
                         公演は毎時05~25分、35~55分に行っています。各日の閉場前30分の回は公演がありません。
                         <br />
@@ -32,17 +31,17 @@ function News1() {
                         <br />
                         なお、全ての回で同じ内容の映画が上映されます。
                     </Typography>
-                    <br />
-
-                    <Divider />
-                    <br />
+                    <Divider sx={{ margin: '8px' }} />
                     <Typography variant='h6'>【お客様へのお願い】</Typography>
-                    <ul>
-                        <li>教室内での飲食はお控えください。</li>
-                        <li>部屋の壁は大変壊れやすくなっておりますので、お手を触れないようお願いします。</li>
-                        <li>部屋の中にある道具や謎は、指示があるまで触ったり見たりしないでください。</li>
-                        <li>他の部屋に聞こえてしまうので、謎の答えが分かっても大声で言わないでください。</li>
-                    </ul>
+                    <Typography variant="p">
+                        ・教室内での飲食はお控えください。
+                        <br />
+                        ・教室前方にある黒い暗幕がかかった壁には寄りかからないようにしてください。
+                        <br />
+                        ・他のお客様のご迷惑となりますので、上映中は大きな声での会話や通話などはお控えください。
+                        <br />
+                        ・その他、他のお客様のご迷惑となるような行為はお控えください。
+                    </Typography>
                 </Box>
             </ThemeProvider>
         </div>
