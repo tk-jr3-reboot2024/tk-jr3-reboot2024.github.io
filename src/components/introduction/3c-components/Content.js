@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2';
 import News from './News';
 import titlelogo1 from './img/titlelogo1.jpg';
 import titlelogo2 from './img/titlelogo2.jpg';
-import titlelogo3 from './img/titlelogo3.png';
+import titlelogo3 from './img/titlelogo3.jpg';
 import theme from "./theme";
 import { grey } from '@mui/material/colors';
 
@@ -54,10 +54,9 @@ function Content() {
 					</Carousel>
 				<box style={{ padding: '2vw', marginLeft: '2vw', color: 'white' }}>
 					<p>
-						国内でも唯一の国立男子校、筑波大学附属駒場中高、通称・筑駒。
-						ある日、そんな筑駒に麻生麗という生徒が転入してきた。
-						容姿端麗で学問・スポーツ共に優れた麗は、やがてこの学校の独特な雰囲気に疑問を覚えるようになり、
-						生徒たちをそのカリスマでまとめ上げ、改革をしようとしていくが…?
+						「ありのままの筑駒」とは、何かー。
+						<br />
+						筑駒の自由と規律をめぐる攻防を描いた短編映画「翔んで筑駒」、ぜひご覧あれ。
 					</p>
 				</box>
 				<Box display='grid' sx={{ flexGrow: '1', padding: '0', }}>
