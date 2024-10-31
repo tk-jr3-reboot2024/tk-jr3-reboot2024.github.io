@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid2';
 import News from './News';
 import titlelogo1 from './img/titlelogo1.jpg';
 import titlelogo2 from './img/titlelogo2.jpg';
-import titlelogo3 from './img/titlelogo3.jpg';
+import titlelogo3 from './img/titlelogo3.jpeg';
 import theme from "./theme";
 import { grey } from '@mui/material/colors';
 
@@ -91,7 +91,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, lg: 6 }}>
+						<Grid size={{ xs: 12 }}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -131,7 +131,35 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+						<Grid size={{ xs: 12, sm: 6}}>
+							<Card sx={{}}>
+								<CardContent>
+									<Typography variant="h5" component="div">
+										アクセス
+									</Typography>
+									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+										<i>Access</i>
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
+										「翔んで筑駒」を上映している3-CHRへのアクセス
+									</Typography>
+								</CardContent>
+								<CardActions>
+									<Button size="small" href="/introduction/c/access">詳細はこちら</Button>
+								</CardActions>
+							</Card>
+						</Grid>
+					</Grid>
+				</Box>
+			</ThemeProvider>
+		</div>
+	);
+};
+
+export default Content;
+
+/*
+<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -167,29 +195,4 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-							<Card sx={{}}>
-								<CardContent>
-									<Typography variant="h5" component="div">
-										アクセス
-									</Typography>
-									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
-										<i>Access</i>
-									</Typography>
-									<Typography variant="body2" sx={{ minHeight: 48 }}>
-										「翔んで筑駒」を上映している3-CHRへのアクセス
-									</Typography>
-								</CardContent>
-								<CardActions>
-									<Button size="small" href="/introduction/c/access">詳細はこちら</Button>
-								</CardActions>
-							</Card>
-						</Grid>
-					</Grid>
-				</Box>
-			</ThemeProvider>
-		</div>
-	);
-};
-
-export default Content;
+*/
