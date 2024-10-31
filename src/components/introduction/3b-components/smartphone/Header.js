@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, IconButton} from '@mui/material';
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Box } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
 import Recreate_logo from './img/Recreate_logo_negate.png';
 
 const Header = () => {
+	const location=useLocation();
+	const shouldDisplayImage = location.pathname !== '/introduction/b';
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 	const [isAnimating, setIsAnimating] = useState(false);
 	const toggleDrawer = (event) => {
@@ -18,17 +20,17 @@ const Header = () => {
 		}
 		setIsDrawerOpen((prev) => !prev);
 	};
-	const menuItems = ['Home', 'Web謎', 'News', 'Photos'];
+	const menuItems = ['Home', 'Editorial', 'News', '中3合同HP'];
 	const getLink = (item) => {
 		switch (item) {
 		case 'Home':
 			return '/introduction/b';
-		case 'Web謎':
-			return '/introduction/b/nazotoki';
+		case 'Editorial':
+			return '/introduction/b/editorial_form';
 		case 'News':
 			return '/introduction/b/news';
-		case 'Photos':
-			return '/introduction/b/photo';
+		case '中3合同HP':
+			return '';
 		default:
 			return '/introduction/b';
 		}
@@ -36,7 +38,7 @@ const Header = () => {
 	const containerVariants = {
 		visible: {
 			transition: {
-				staggerChildren: 0.1, // 各要素が0.2秒の遅延で順にアニメーション
+				staggerChildren: 0.1,
 			},
 		},
 	};
@@ -48,6 +50,24 @@ const Header = () => {
 		<div>
 			<AppBar position="fixed" elevation={0} sx={{ backgroundColor: 'transparent', color: 'white', padding: '0px'}}>
 				<Toolbar>
+					{(shouldDisplayImage && !isDrawerOpen) && (
+						<Box
+						sx={{
+							flexGros: 1,
+							display: 'flex',
+							alignItems: 'center'
+						}}
+						>
+							<img
+							src={Recreate_logo}
+							alt="mainlogo"
+							style={{
+								height: '40px',
+								objectFit: 'contain'
+							}}
+							/>
+						</Box>
+					)}
 					<Box sx={{ ml: 'auto' }}>
 						<IconButton 
 						edge="start"
@@ -60,6 +80,7 @@ const Header = () => {
 					</Box>
 				</Toolbar>
 			</AppBar>
+			<Toolbar />
 			<AnimatePresence>
 				{isDrawerOpen && (
 					<motion.div

@@ -32,11 +32,15 @@ function EditorialForm(){
 				sx={{
 					flexDirection: 'column', // フォームとボタンを縦に並べる
 					gap: 2,
-					width: '120px'
+					width: '100vw',
+					color: '#fff'
 				}}
 				>
+					<div>
+						3Bデコ「Re:create」に参加した方は、パスワードを入力すると解説とエピローグを見ることができます。
+					</div>
 					<TextField
-					label="Type something"
+					label="パスワードを入力してください．"
 		  			variant="outlined"
 		  			value={input}
 		  			onChange={(e) => setInput(e.target.value)}
