@@ -21,7 +21,7 @@ function EditorialContent() {
 				}}
 				>
 					<Typography variant="h4" sx={{fontFamily: 'serif'}}>
-						解説
+						解説とエピローグ
 					</Typography>
 					<Typography variant="h5" sx={{fontFamily: 'serif'}}>
 						Step 1
@@ -110,6 +110,9 @@ function EditorialContent() {
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif'}}>
 						では、この4つの答えを表に書いて文実本部に提出しましょう。
+					</Typography>
+					<Typography variant="body1" sx={{fontFamily: 'serif'}}>
+						すると、このような紙がもらえました。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif'}}>
 						設計図にあった面積を足し算して記入し、提出しましょう。
