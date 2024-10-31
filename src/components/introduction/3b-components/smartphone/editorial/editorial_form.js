@@ -37,7 +37,7 @@ function EditorialForm(){
 				}}
 				>
 					<div>
-						3Bデコ「Re:create」に参加した方は、パスワードを入力すると解説を見ることができます。
+						3Bデコ「Re:create」に参加した方は、パスワードを入力すると解説とエピローグを見ることができます。
 					</div>
 					<TextField
 					label="パスワードを入力してください．"
