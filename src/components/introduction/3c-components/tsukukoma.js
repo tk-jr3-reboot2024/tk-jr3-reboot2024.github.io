@@ -19,7 +19,7 @@ function News1() {
                     <Divider sx={{ margin: '8px' }} />
                     <Typography variant='h6'>【WIP】</Typography>
                     <Typography variant="p">
-                        WIP
+                        Wip
                     </Typography>
                 </Box>
             </ThemeProvider>
