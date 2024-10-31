@@ -30,44 +30,47 @@ function News1() {
                     </Typography>
                     <Divider sx={{ margin: '8px' }} />
                     <Typography variant='h6'>【キャスト】</Typography>
-                    <Typography variant="p">
-                        ※個人情報保護の観点から、ホームページ上でのキャスト本名公開は控えさせていただきます。
-                        <br />
-                        ＜「筑駒モダン化計画」軍＞
-                        <br />
-                        麻生 麗
-                        <br />
-                        伊藤 尚子
-                        <br />
-                        永会 和太郎
-                        <br />
-                        カワウソ
-                        <br />
-                        蓮見 翔
-                        <br />
-                        醍醐
-                        <br />
-                        その他
-                        <br />
-                        ＜「ありのままの筑駒」側＞
-                        <br />
-                        仁井 三太郎
-                        <br />
-                        一色 緑
-                        <br />
-                        金 政宗
-                        <br />
-                        古佐 太郎
-                        <br />
-                        野比 のぎ太
-                        <br />
-                        井瀬果 伊月
-                        <br />
-                        その他
-                    </Typography>
+                    <Grid container spacing={2}>
+                        <Grid size={{ xs: 12, sm: 6 }}>
+                            <Typography variant="p">
+                                ＜「筑駒モダン化計画」軍＞
+                                <br />
+                                麻生 麗
+                                <br />
+                                伊藤 尚子
+                                <br />
+                                永会 和太郎
+                                <br />
+                                カワウソ
+                                <br />
+                                蓮見 翔
+                                <br />
+                                醍醐
+                                <br />
+                                その他
+                            </Typography>
+                        </Grid>
+                        <Grid size={{ xs: 12, sm: 6 }}>
+                            <Typography variant="p">＜「ありのままの筑駒」側＞
+                                <br />
+                                仁井 三太郎
+                                <br />
+                                一色 緑
+                                <br />
+                                金 政宗
+                                <br />
+                                古佐 太郎
+                                <br />
+                                野比 のぎ太
+                                <br />
+                                井瀬果 伊月
+                                <br />
+                                その他</Typography>
+                        </Grid>
+                    </Grid>
                 </Box>
             </ThemeProvider>
-        </div>
+        </div >
     );
 }
 
