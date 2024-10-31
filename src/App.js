@@ -20,6 +20,10 @@ import Beditorial from './components/introduction/3b-components/smartphone/edito
 import Layoutdefault from './components/layout';
 import CLayout from './components/introduction/3c-components/layout';
 import CAbout from './components/introduction/3c-components/about';
+import CStory from './components/introduction/3c-components/story';
+import CTsukukoma from './components/introduction/3c-components/tsukukoma';
+import CMaking from './components/introduction/3c-components/making';
+import CAccess from './components/introduction/3c-components/access';
 import CNews from './components/introduction/3c-components/News';
 import CNews1 from './components/introduction/3c-components/news/1';
 import CNews2 from './components/introduction/3c-components/news/2';
@@ -76,6 +80,10 @@ function App() {
 			<Routes>
 				<Route path="introduction/c" element={<CLayout><C /></CLayout>} />
 				<Route path="introduction/c/about" element={<CLayout><CAbout /></CLayout>} />
+				<Route path="introduction/c/story" element={<CLayout><CStory /></CLayout>} />
+				<Route path="introduction/c/tsukukoma" element={<CLayout><CTsukukoma /></CLayout>} />
+				<Route path="introduction/c/making" element={<CLayout><CMaking /></CLayout>} />
+				<Route path="introduction/c/access" element={<CLayout><CAbout /></CLayout>} />
 				<Route path="introduction/c/news" element={<CLayout><CNews /></CLayout>} />
 				<Route path="introduction/c/news/1" element={<CLayout><CNews1 /></CLayout>} />
 				<Route path="introduction/c/news/2" element={<CLayout><CNews2 /></CLayout>} />
