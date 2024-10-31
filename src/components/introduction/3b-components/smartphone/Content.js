@@ -130,6 +130,12 @@ function Content() {
 		>
 			<Box
 			sx={{
+<<<<<<< HEAD
+=======
+				display: 'flex',
+				alignItems: 'center',
+				justifyContent: 'center',
+>>>>>>> origin/main
 				flexDirection: 'column',
 				color: '#fff'
 			}}

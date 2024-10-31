@@ -11,10 +11,9 @@ function News1() {
 					<CssBaseline />
 					<Box sx={{ padding: '2vw', margin: '0', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
 						<Box align='right'><Typography variant="p" align='right'><Link href="/introduction/c/news" color="inherit" >←ニュース一覧へ戻る</Link></Typography></Box>
-						<Typography variant='h5'><b>11/1(金)一般審査の実施について</b></Typography>
+						<Typography variant='h5'><b>11/1(金)審査の実施について</b></Typography>
 						<Typography variant=""><Chip label="お知らせ" variant="outlined" color='success' /> 10/26</Typography>
-						<Divider />
-						<br />
+						<Divider sx={{margin: '8px'}}/>
 						<Typography variant="p">
                             　筑駒文化祭では、例年審査委員会により各デコの審査が行われています。
 							<br />

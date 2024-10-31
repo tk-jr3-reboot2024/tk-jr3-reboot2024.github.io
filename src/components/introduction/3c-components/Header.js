@@ -42,10 +42,15 @@ function BasicMenu() {
 					>
 						<MenuItem onClick={handleClose}><Link href="/" underline="none" sx={{ color: grey[900] }} >中3HPトップ</Link></MenuItem>
 						<MenuItem onClick={handleClose}><Link href="/introduction/c" underline="none" sx={{ color: grey[900] }} >3-CHRトップ</Link></MenuItem>
-						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none" sx={{ color: grey[900] }} >公演について</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none" sx={{ color: grey[900] }} >公演のご案内</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/news" underline="none" sx={{ color: grey[900] }} >ニュース</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/story" underline="none" sx={{ color: grey[900] }} >ストーリーとキャスト</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/tsukukoma" underline="none" sx={{ color: grey[900] }} >「ありのままの筑駒」学校紹介</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/making" underline="none" sx={{ color: grey[900] }} >映画製作の裏側</Link></MenuItem>
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/access" underline="none" sx={{ color: grey[900] }} >アクセス</Link></MenuItem>
 					</Menu>
 					<Typography variant="h6" noWrap>
-						翔んで筑駒
+					<Link href="/introduction/c" underline="none" sx={{ color: grey[50] }} >翔んで筑駒</Link>
 					</Typography>
 				</Toolbar>
 			</AppBar>
