@@ -10,7 +10,7 @@ import Content from './components/Content';
 import Pictures from './components/pictures';
 import Time from './components/time';
 import News from './components/news';
-import Googlecheck from './components/googlecheck'
+import Googlecheck from './components/googlecheck';
 import Bphoto from './components/introduction/3b-components/photo';
 import Bnews from './components/introduction/3b-components/News';
 import BLayout from './components/introduction/3b-components/layout';
@@ -84,7 +84,7 @@ function App() {
 				<Route path="introduction/c/story" element={<CLayout><CStory /></CLayout>} />
 				<Route path="introduction/c/tsukukoma" element={<CLayout><CTsukukoma /></CLayout>} />
 				<Route path="introduction/c/making" element={<CLayout><CMaking /></CLayout>} />
-				<Route path="introduction/c/access" element={<CLayout><CAbout /></CLayout>} />
+				<Route path="introduction/c/access" element={<CLayout><CAccess /></CLayout>} />
 				<Route path="introduction/c/news" element={<CLayout><CNews /></CLayout>} />
 				<Route path="introduction/c/news/1" element={<CLayout><CNews1 /></CLayout>} />
 				<Route path="introduction/c/news/2" element={<CLayout><CNews2 /></CLayout>} />
