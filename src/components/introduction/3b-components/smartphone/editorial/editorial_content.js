@@ -2,6 +2,7 @@ import React from 'react'
 import {CssBaseline, Box, Typography} from '@mui/material';
 import Themesmartphone from './theme';
 import { ThemeProvider } from '@mui/material/styles';
+import Epilogue from './img/epilogue.jpg.jpg';
 
 function EditorialContent() {
 	return (
@@ -11,22 +12,32 @@ function EditorialContent() {
 				<Box
 				sx={{
 					display: 'flex',
-					justifyContent: 'center',
-					alignItems: 'center',
 					color: '#fff',
-					display: 'flex',
 					flexDirection: 'column',
 					gap: 2,
-					textAlign: 'center',
-					width: '87vw'
+					width: 'auto',
+					padding: '10px'
 				}}
 				>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h4" sx={{fontFamily: 'serif'}}>
 						解説とエピローグ
 					</Typography>
+					</Box>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h5" sx={{fontFamily: 'serif'}}>
 						Step 1
 					</Typography>
+					</Box>
+					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						さしがねを直角に合わせて3cmのところにある文字を拾いましょう。
 						<br />
@@ -54,9 +65,17 @@ function EditorialContent() {
 						<br />
 						つまり「841」という答えが導かれます。
 					</Typography>
+					</Box>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h5" sx={{fontFamily: 'serif'}}>
 						Step2
 					</Typography>
+					</Box>
+					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						この4問の謎を解く必要があるようです。
 					</Typography>
@@ -118,9 +137,17 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						設計図にあった面積を足し算して記入し、提出しましょう。
 					</Typography>
+					</Box>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h5" sx={{fontFamily: 'serif'}}>
 						Step3
 					</Typography>
+					</Box>
+					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						文実から渡されたパズルにピースをはめていくと、下図のようになりました。
 					</Typography>
@@ -166,6 +193,11 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						すると、展示品の完成カードをもらうことができ、このデコを完成させることができました！
 					</Typography>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h6" sx={{fontFamily: 'serif'}}>
 						<br />
 						<br />
@@ -175,9 +207,18 @@ function EditorialContent() {
 						<br />
 						<br />
 					</Typography>
+					</Box>
+					</Box>
+					<Box sx={{
+						alignItems: 'center',
+						justifyContent: 'center',
+						display: 'flex'
+					}}>
 					<Typography variant="h5" sx={{fontFamily: 'serif'}}>
 						Final Step
 					</Typography>
+					</Box>
+					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						展示品を作り終えたあとにもらった完成カードにはこう書かれていました。
 					</Typography>
@@ -250,7 +291,18 @@ function EditorialContent() {
 						<br />
 						正しく記入して提出したチームこそが、真の成功チームとなったわけです。
 					</Typography>
-					
+					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
+						日記の最後のページをめくると、次の内容が書かれていました―
+					</Typography>
+					</Box>
+				</Box>
+				<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					flexDirection: 'column',
+				}}>
+					<img src={Epilogue} alt="Epilogue" style={{width: '85%', height: 'auto'}} />
 				</Box>
 			</ThemeProvider>
 		</div>
