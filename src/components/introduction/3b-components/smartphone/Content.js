@@ -141,25 +141,25 @@ function Content() {
 				Story
 			</Typography>
 			</Box>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				今日は待ちに待った文化祭。
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 			あまりの多忙でクラスデコの準備は手伝えなかったが、本番のシフトでは全力を尽くそうと考えていた。
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				楽しみで少し早く教室に到着し、扉を開けた瞬間―あなたは自分の目を疑った。
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				散乱した木材、剝がされたパネル、乱雑な机…
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				全てが、破壊されていた。
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				あなたは慌てて文化祭実行委員を呼び、散らかった教室の片づけを手伝ってもらったのだが、彼らにも破壊さたデコを修復することは出来ない。
 			</Typography>
-			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '20px'}}>
+			<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 				絶望しかけたその時、誰かの日記が入ったファイルが見つかったのだった―
 			</Typography>
 		</Box>
