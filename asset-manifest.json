@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.09e1350e.js",
+    "main.js": "/static/js/main.56dee897.js",
     "static/js/453.d5ae8d89.chunk.js": "/static/js/453.d5ae8d89.chunk.js",
     "static/media/epilogue.jpg.jpg": "/static/media/epilogue.jpg.482ab7a28589c403bf07.jpg",
+    "static/media/titlelogo1.jpg": "/static/media/titlelogo1.75e123d77b3cea1688f3.jpg",
     "static/media/tatekan.jpg": "/static/media/tatekan.dcadafae2e5022a17c53.jpg",
     "static/media/titlelogo3.png": "/static/media/titlelogo3.899613a419661da13bd9.png",
+    "static/media/titlelogo2.jpg": "/static/media/titlelogo2.09a285e869cdf8c89988.jpg",
     "static/media/Recreate_logo_negate.png": "/static/media/Recreate_logo_negate.b5ddb14b30992f00573c.png",
-    "static/media/titlelogo2.jpg": "/static/media/titlelogo2.7a09d9f2f646389453c1.jpg",
-    "static/media/titlelogo1.jpg": "/static/media/titlelogo1.aff6f345e781df132e13.jpg",
     "static/media/Recreate_subtitle_negate.png": "/static/media/Recreate_subtitle_negate.be19d53efbc257b16fea.png",
     "static/media/PamphletLogo.jpg": "/static/media/PamphletLogo.01e4c9d2bdb955d97ca9.jpg",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.09e1350e.js.map": "/static/js/main.09e1350e.js.map",
+    "main.56dee897.js.map": "/static/js/main.56dee897.js.map",
     "453.d5ae8d89.chunk.js.map": "/static/js/453.d5ae8d89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.09e1350e.js"
+    "static/js/main.56dee897.js"
   ]
 }
