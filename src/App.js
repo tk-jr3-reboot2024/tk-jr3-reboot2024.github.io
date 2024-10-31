@@ -71,7 +71,7 @@ function App() {
 				<Route path="introduction/b/photo" element={<BLayout><Bphoto /></BLayout>} />
 				<Route path="introduction/b/news" element={<BLayout><Bnews box_width='96%' /></BLayout>} />
 				<Route path="introduction/b/editorial_form" element={<BLayout><Beditorial_form /></BLayout>} />
-				<Route path="introduction/b/editorial" element={<BLayout><Beditorial /></BLayout>} />
+				<Route path="introduction/b/editorial" element={<BLayout2><Beditorial /></BLayout2>} />
 			</Routes>
 			<Routes>
 				<Route path="/introduction/*" element={<Introduction />} />
