@@ -40,7 +40,6 @@ function BasicMenu() {
 							'aria-labelledby': 'basic-button',
 						}}
 					>
-						<MenuItem onClick={handleClose}><Link href="/" underline="none" sx={{ color: grey[900] }} >中3HPトップ</Link></MenuItem>
 						<MenuItem onClick={handleClose}><Link href="/introduction/c" underline="none" sx={{ color: grey[900] }} >3-CHRトップ</Link></MenuItem>
 						<MenuItem onClick={handleClose}><Link href="/introduction/c/about" underline="none" sx={{ color: grey[900] }} >公演のご案内</Link></MenuItem>
 						<MenuItem onClick={handleClose}><Link href="/introduction/c/news" underline="none" sx={{ color: grey[900] }} >ニュース</Link></MenuItem>
@@ -59,6 +58,9 @@ function BasicMenu() {
 export default BasicMenu;
 
 /*
-<MenuItem onClick={handleClose}><Link href="/introduction/c/tsukukoma" underline="none" sx={{ color: grey[900] }} >「ありのままの筑駒」学校紹介</Link></MenuItem>
+
+						<MenuItem onClick={handleClose}><Link href="/" underline="none" sx={{ color: grey[900] }} >中3HPトップ</Link></MenuItem>
+
+						<MenuItem onClick={handleClose}><Link href="/introduction/c/tsukukoma" underline="none" sx={{ color: grey[900] }} >「ありのままの筑駒」学校紹介</Link></MenuItem>
 						<MenuItem onClick={handleClose}><Link href="/introduction/c/making" underline="none" sx={{ color: grey[900] }} >映画製作の裏側</Link></MenuItem>
 */
