@@ -15,7 +15,8 @@ function EditorialContent() {
 					color: '#fff',
 					flexDirection: 'column',
 					gap: 2,
-					width: '87vw'
+					width: 'auto',
+					padding: '10px'
 				}}
 				>
 					<Box sx={{
