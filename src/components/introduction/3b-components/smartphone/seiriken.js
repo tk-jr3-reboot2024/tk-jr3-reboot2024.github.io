@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 const Seiriken = () => {
 	const eventTimesDay1=[610,660,710,760,810,860,910];
@@ -7,6 +8,7 @@ const Seiriken = () => {
 	const eventTimesDay3=[610,660,710,760,810,860,910];
 	const [timeUntilNextEvent, setTimeUntilNextEvent] = useState(null);
 	const [nextEventStartTime, setNextEventStartTime] = useState(null);
+	const [distributing, setDistributing] = useState(false);
 	const getEventTimes = () => {
 		const now = new Date();
 		const month = now.getMonth() + 1; // 0が1月なので+1
@@ -48,12 +50,19 @@ const Seiriken = () => {
         setTimeUntilNextEvent(nextEvent.secondsUntilStart);
 
         // 次の公演の開始時刻を時:分形式で設定
-        const hours = String(Math.floor(nextEvent.minutes / 60)).padStart(2, '0');
-        const minutes = String(nextEvent.minutes % 60).padStart(2, '0');
+		const nextEvent2=nextEvent.minutes+20;
+        const hours = String(Math.floor(nextEvent2 / 60)).padStart(2, '0');
+        const minutes = String(nextEvent2 % 60).padStart(2, '0');
         setNextEventStartTime(`${hours}時${minutes}分`);
+		if(totalCurrentTimeInSeconds >= nextEvent.minutes*60 && totalCurrentTimeInSeconds < nextEvent2*60){
+			setDistributing(true);
+		} else{
+			setDistributing(false);
+		}
       } else {
         setTimeUntilNextEvent(null);
         setNextEventStartTime(null);
+		setDistributing(false);
       }
 		};
 	
@@ -65,14 +74,33 @@ const Seiriken = () => {
 	
 	  return (
 		<div>
+		<Box sx={{
+			display: 'flex',
+			flexDirection: 'column',
+			alignItems: 'center',
+			justifyContent: 'center',
+			gap: 2
+		}}>
 		<Typography variant="body2" color="#fff" fontSize="20px" fontFamily="serif">
-		  {timeUntilNextEvent !== null
-			? `あと ${timeUntilNextEvent / 60 | 0} 分 ${timeUntilNextEvent % 60} 秒(${nextEventStartTime}開始の公演分)`
-			: '本日の公演は終了しました'}
+		{distributing ? (
+        <>
+          配布中（{nextEventStartTime} まで）
+        </>
+      ) : timeUntilNextEvent !== null ? (
+        <>
+          あと {timeUntilNextEvent/ 60 | 0} 分 {timeUntilNextEvent % 60} 秒
+		  <br />
+		  ({nextEventStartTime}開始分)
+        </>
+		
+      ) : (
+        '本日の公演は終了しました'
+      )}
 		</Typography>
 		<Typography variant="body2" color="#fff" fontSize="20px" fontFamily="serif">
 			※整理券配布状況は受付にて確認してください
 		</Typography>
+		</Box>
 		</div>
 	  );
 };
