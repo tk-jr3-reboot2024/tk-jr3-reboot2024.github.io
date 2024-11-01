@@ -11,7 +11,7 @@ let theme = createTheme({
         },
         text: { primary: "#000000" },
         typography: {
-            fontFamily: 'Raleway, Arial',
+            fontFamily: 'hiragino-mincho-pron, sans-serif',
           },
     },
 });
