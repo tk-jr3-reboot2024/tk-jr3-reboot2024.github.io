@@ -26,6 +26,7 @@ function Sitemap({toggleDrawer, isDrawerOpen, isIntroductionOpensub, handleIntro
 						<ChevronRightIcon fontSize="medium" style={{ marginLeft: 0 }} />
 					</ListItem>
 					<Divider />
+					{/*
 					<ListItem button component={Link} to="/time" onClick={toggleDrawer(false)}>
 						<ListItemText primary="待ち時間(目安)" />
 						{location.pathname === '/time' && <TocIcon style={{ marginLeft: 0 }} />}
@@ -33,7 +34,7 @@ function Sitemap({toggleDrawer, isDrawerOpen, isIntroductionOpensub, handleIntro
 					<ListItem button component={Link} to="/photos" onClick={toggleDrawer(false)}>
 						<ListItemText primary="制作風景" />
 						{location.pathname === '/photos' && <TocIcon style={{ marginLeft: 0 }} />}
-					</ListItem>
+					</ListItem>*/}
 				</List>
 
 				{(
