@@ -170,7 +170,7 @@ function Content() {
 		}}
 		>
 			<Typography variant="h6" sx={{fontFamily: 'serif', fontSize: '30px'}}>
-				次回の整理券配布
+				次回公演分の整理券配布
 			</Typography>
 			<Seiriken />
 			<br />
