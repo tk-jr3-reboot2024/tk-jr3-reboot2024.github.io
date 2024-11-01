@@ -49,7 +49,7 @@ const Seiriken = () => {
 			minutes: eventTime,
 			secondsUntilStart: (eventTime * 60) - totalCurrentTimeInSeconds
 		}))
-		.filter(event => event.secondsUntilStart > -20);
+		.filter(event => event.secondsUntilStart > -1200);
 		
       if (futureEventTimes.length > 0) {
         const nextEvent = futureEventTimes.reduce((earliest, event) =>
@@ -78,6 +78,7 @@ const Seiriken = () => {
         setTimeUntilNextEvent(null);
         setNextEventStartTime(null);
 		setDistributing(false);
+		setNextstart(null);
       }
 		};
 	
