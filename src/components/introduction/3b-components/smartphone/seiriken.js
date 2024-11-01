@@ -8,6 +8,7 @@ const Seiriken = () => {
 	const eventTimesDay3=[610,660,710,760,810,860,910];
 	const [timeUntilNextEvent, setTimeUntilNextEvent] = useState(null);
 	const [nextEventStartTime, setNextEventStartTime] = useState(null);
+	const [nextstart, setNextstart] = useState(null);
 	const [distributing, setDistributing] = useState(false);
 	const getEventTimes = () => {
 		const now = new Date();
@@ -43,19 +44,33 @@ const Seiriken = () => {
         }))
         .filter(event => event.secondsUntilStart > 0);
 
+		const futureEventTimes2 = eventTimes
+		.map(eventTime => ({
+			minutes: eventTime,
+			secondsUntilStart: (eventTime * 60) - totalCurrentTimeInSeconds
+		}))
+		.filter(event => event.secondsUntilStart > -20);
+		
       if (futureEventTimes.length > 0) {
         const nextEvent = futureEventTimes.reduce((earliest, event) =>
           event.secondsUntilStart < earliest.secondsUntilStart ? event : earliest
         );
         setTimeUntilNextEvent(nextEvent.secondsUntilStart);
+		const StartTime=futureEventTimes2.reduce((earliest,event) =>
+			event.secondsUntilStart < earliest.secondsUntilStart ? event : earliest
+		);
 
         // 次の公演の開始時刻を時:分形式で設定
 		const nextEvent2=nextEvent.minutes+20;
         const hours = String(Math.floor(nextEvent2 / 60)).padStart(2, '0');
         const minutes = String(nextEvent2 % 60).padStart(2, '0');
         setNextEventStartTime(`${hours}時${minutes}分`);
-		if(totalCurrentTimeInSeconds >= nextEvent.minutes*60 && totalCurrentTimeInSeconds < nextEvent2*60){
+		if(nextEvent.minutes!==StartTime.minutes){
 			setDistributing(true);
+			const nextStart2=StartTime.minutes+20;
+			const hours2=String(Math.floor(nextStart2 / 60)).padStart(2, '0');
+			const minutes2 = String(nextStart2 % 60).padStart(2, '0');
+			setNextstart(`${hours2}時${minutes2}分`);
 		} else{
 			setDistributing(false);
 		}
@@ -84,13 +99,13 @@ const Seiriken = () => {
 		<Typography variant="body2" color="#fff" fontSize="20px" fontFamily="serif">
 		{distributing ? (
         <>
-          配布中（{nextEventStartTime} まで）
+          配布中（{nextstart} まで）
         </>
       ) : timeUntilNextEvent !== null ? (
         <>
           あと {timeUntilNextEvent/ 60 | 0} 分 {timeUntilNextEvent % 60} 秒
 		  <br />
-		  ({nextEventStartTime}開始分)
+		  ({nextEventStartTime}開始公演分)
         </>
 		
       ) : (
