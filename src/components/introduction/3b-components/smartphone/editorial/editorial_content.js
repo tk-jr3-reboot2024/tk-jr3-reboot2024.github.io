@@ -2,7 +2,7 @@ import React from 'react'
 import {CssBaseline, Box, Typography} from '@mui/material';
 import Themesmartphone from './theme';
 import { ThemeProvider } from '@mui/material/styles';
-import Epilogue from './img/epilogue.jpg.jpg';
+import Epilogue from './img/epilogue.jpg';
 import Kanseisyo from './img/kanseisyo.png';
 import Moyou from './img/moyou.png';
 import Mozaiku from './img/mozaiku.jpg';
