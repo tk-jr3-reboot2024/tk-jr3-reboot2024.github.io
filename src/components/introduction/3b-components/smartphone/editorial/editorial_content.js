@@ -252,12 +252,12 @@ function EditorialContent() {
 						ピースの境目を見ると、この模様が隠れていました。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						つまり、ここは(ほげほげ)色で塗る必要がありそうです。
+						つまり、ここは青色で塗る必要がありそうです。
 						<br />
 						面積はさしがねで測ると2×7=14cmとわかります。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						では、ペイン太使用書に(ほげほげ)色、"風にのせて"、14cmと書き、一緒に提出してみましょう。
+						では、ペイン太使用書に青色、"風にのせて"、14cmと書き、一緒に提出してみましょう。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						すると、展示品の完成カードをもらうことができ、このデコを完成させることができました！
@@ -328,15 +328,15 @@ function EditorialContent() {
 					あなたの身近にあった、例えば公演中もずっとあなたの視界に入っていたような…
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-					そうです。左から(ほげほげ)番目の模様は、<Typography component="span" variant="h6" sx={{ fontSize: '1.5rem', display: 'inline', fontFamily: 'serif' }}>教室の床の模様と一致していた</Typography>のです。
+					そうです。左上の謎の模様は、<Typography component="span" variant="h6" sx={{ fontSize: '1.5rem', display: 'inline', fontFamily: 'serif' }}>教室の床の模様と一致していた</Typography>のです。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						ということは、この教室の床全体を(ほげほげ)色に塗らなければなりません。
+						ということは、この教室の床全体を白色に塗らなければなりません。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						早速ペイン太に記入していきましょう。
 						<br />
-						色は(ほげほげ)色、塗る場所は床、面積はストーリーシートに書かれていたMAPを用いると
+						色は白色、塗る場所は床、面積はストーリーシートに書かれていたMAPを用いると
 						<br />
 						6×10=60㎡=600000㎠と求めることができます。
 					</Typography>
