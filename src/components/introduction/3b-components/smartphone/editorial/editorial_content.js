@@ -3,6 +3,19 @@ import {CssBaseline, Box, Typography} from '@mui/material';
 import Themesmartphone from './theme';
 import { ThemeProvider } from '@mui/material/styles';
 import Epilogue from './img/epilogue.jpg.jpg';
+import Kanseisyo from './img/kanseisyo.png';
+import Moyou from './img/moyou.png';
+import Mozaiku from './img/mozaiku.jpg';
+import Paneru from './img/paneru.png';
+import Pazuru from './img/pazuru.jpg';
+import Problem_one from './img/problem_one.png';
+import Problem_two from './img/problem_two.png';
+import Problem_three from './img/problem_three.png';
+import Problem_four from './img/problem_four.png';
+import Sashigane from './img/sashigane.png';
+import Shiyousyo from './img/shiyousyo.png';
+import Shiyousyo_zero from './img/shiyousyo_zero.png';
+import Uramen from './img/uramen.png';
 
 function EditorialContent() {
 	return (
@@ -38,26 +51,71 @@ function EditorialContent() {
 					</Typography>
 					</Box>
 					<Box>
+						
+				<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Problem_one} alt="problem" style={{width: '60%', height: 'auto'}} />
+					<img src={Sashigane} alt="problem" style={{width: '30%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						さしがねを直角に合わせて3cmのところにある文字を拾いましょう。
 						<br />
 						「く」も直角であることに気を付けて文字を拾うと「こたえははっぴ」と出てくるため、答えは「はっぴ」。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Problem_two} alt="problem" style={{width: '40%', height: 'auto'}} />
+					<img src={Mozaiku} alt="problem" style={{width: '40%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						モザイクアートを1マスずつ五十音表に対応させ、示された色の順に読みましょう。
 						<br />
 						黄色は「や」、赤は「く」、緑は「し」にそれぞれ対応しているため、答えは「やくし」。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Problem_three} alt="problem" style={{width: '40%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						黒板にかかれた枠だけを見ると言葉になっています。
 						<br />
 						左の枠は「中古」、右の枠は「自由」と書いてあるので答えは「じゆう」。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					
+					<img src={Problem_four} alt="problem" style={{width: '60%', height: 'auto'}} />
+					<img src={Paneru} alt="problem" style={{width: '30%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						パネルから、当てはまる文字を抜き出しましょう。
 						<br />
 						モザイクアートの歴史から「位」が、制作の手順から「置」が拾えるので、答えは「いち」。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Uramen} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						問1~4の答えを繋げると、「はっぴやくしじゆういち」となります。
 						<br />
@@ -134,6 +192,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						すると、このような紙がもらえました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Shiyousyo} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						設計図にあった面積を足し算して記入し、提出しましょう。
 					</Typography>
@@ -222,6 +288,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						展示品を作り終えたあとにもらった完成カードにはこう書かれていました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Kanseisyo} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						「やり残したこと、塗り残したものがないか確認しながら待とう。」
 						<br />
@@ -236,6 +310,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 					日記に書かれた模様は、この4種類でした。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Moyou} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 					このうちどれかに、見覚えはないでしょうか。
 					</Typography>
@@ -262,13 +344,32 @@ function EditorialContent() {
 						塗る面積の枠が足りません。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
+						ペイン太使用書をよく見てみましょう。
+					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Shiyousyo} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
+					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						㎠のcに少し違和感がありますね。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						ここにこう足せば、0にできそうです。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Shiyousyo_zero} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						ここを0にうれば、60㎡と書いて提出することができたのです！
+						ここを0にすれば、60㎡と書いて提出することができたのです！
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						つまり！今回の公演"Re:create~文化祭準備からの脱出"においては、
