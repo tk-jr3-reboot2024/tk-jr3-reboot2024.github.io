@@ -11,7 +11,7 @@ function News1() {
 				<CssBaseline />
 				<Box sx={{ padding: '2vw', box_width: '100%', background: grey[50], borderRadius: '4px' }}>
 					<Typography variant="h5" component="div">
-						<b>映画制作の裏側</b>
+						<b>映画制作の裏側!</b>
 					</Typography>
 					<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
 						<i>Behind the Scenes</i>
