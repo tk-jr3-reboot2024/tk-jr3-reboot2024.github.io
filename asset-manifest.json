@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.3ec03bf8.js",
+    "main.js": "/static/js/main.feda3261.js",
     "static/js/453.d5ae8d89.chunk.js": "/static/js/453.d5ae8d89.chunk.js",
     "static/media/epilogue.jpg.jpg": "/static/media/epilogue.jpg.482ab7a28589c403bf07.jpg",
     "static/media/pazuru.jpg": "/static/media/pazuru.8ed7270e9542163c4619.jpg",
@@ -18,6 +18,7 @@
     "static/media/moyou.png": "/static/media/moyou.aa3630fae29c8d6962d1.png",
     "static/media/kanseisyo.png": "/static/media/kanseisyo.f6674fbfc683ee5d03bc.png",
     "static/media/problem_two.png": "/static/media/problem_two.096eb8a67626d773a7dc.png",
+    "static/media/kokuban.jpg": "/static/media/kokuban.4c5c8ba21361cb9c752a.jpg",
     "static/media/problem_four.png": "/static/media/problem_four.ee4bad26846371e7bff0.png",
     "static/media/Recreate_logo_negate.png": "/static/media/Recreate_logo_negate.b5ddb14b30992f00573c.png",
     "static/media/Recreate_subtitle_negate.png": "/static/media/Recreate_subtitle_negate.be19d53efbc257b16fea.png",
@@ -25,11 +26,11 @@
     "static/media/problem_three.png": "/static/media/problem_three.029547d390eed1754783.png",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.3ec03bf8.js.map": "/static/js/main.3ec03bf8.js.map",
+    "main.feda3261.js.map": "/static/js/main.feda3261.js.map",
     "453.d5ae8d89.chunk.js.map": "/static/js/453.d5ae8d89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.3ec03bf8.js"
+    "static/js/main.feda3261.js"
   ]
 }
