@@ -16,6 +16,7 @@ import Sashigane from './img/sashigane.png';
 import Shiyousyo from './img/shiyousyo.png';
 import Shiyousyo_zero from './img/shiyousyo_zero.png';
 import Uramen from './img/uramen.png';
+import Kokuban from './img/kokuban.jpg';
 
 function EditorialContent() {
 	return (
@@ -84,9 +85,11 @@ function EditorialContent() {
 					display: 'flex',
 					alignItems: 'center',
 					justifyContent: 'center',
+					flexDirection: 'column',
 					gap: 2
 				}}>
-					<img src={Problem_three} alt="problem" style={{width: '40%', height: 'auto'}} />
+					<img src={Problem_three} alt="problem" style={{width: '80%', height: 'auto'}} />
+					<img src={Kokuban} alt="problem" style={{width: '80%', height: 'auto'}} />
 				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						黒板にかかれた枠だけを見ると言葉になっています。
