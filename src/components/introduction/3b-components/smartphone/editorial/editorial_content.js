@@ -2,7 +2,7 @@ import React from 'react'
 import {CssBaseline, Box, Typography} from '@mui/material';
 import Themesmartphone from './theme';
 import { ThemeProvider } from '@mui/material/styles';
-import Epilogue from './img/epilogue.jpg.jpg';
+import Epilogue from './img/epilogue.jpg';
 import Kanseisyo from './img/kanseisyo.png';
 import Moyou from './img/moyou.png';
 import Mozaiku from './img/mozaiku.jpg';
@@ -16,6 +16,9 @@ import Sashigane from './img/sashigane.png';
 import Shiyousyo from './img/shiyousyo.png';
 import Shiyousyo_zero from './img/shiyousyo_zero.png';
 import Uramen from './img/uramen.png';
+import Kokuban from './img/kokuban.jpg';
+import Pazuru_kansei from './img/pazuru_kansei.jpg';
+import Steptwo from './img/step2.jpg';
 
 function EditorialContent() {
 	return (
@@ -62,7 +65,7 @@ function EditorialContent() {
 					<img src={Sashigane} alt="problem" style={{width: '30%', height: 'auto'}} />
 				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						さしがねを直角に合わせて3cmのところにある文字を拾いましょう。
+						さしがねを直角に合わせて5cmのところにある文字を拾いましょう。
 						<br />
 						「く」も直角であることに気を付けて文字を拾うと「こたえははっぴ」と出てくるため、答えは「はっぴ」。
 					</Typography>
@@ -84,9 +87,11 @@ function EditorialContent() {
 					display: 'flex',
 					alignItems: 'center',
 					justifyContent: 'center',
+					flexDirection: 'column',
 					gap: 2
 				}}>
-					<img src={Problem_three} alt="problem" style={{width: '40%', height: 'auto'}} />
+					<img src={Problem_three} alt="problem" style={{width: '80%', height: 'auto'}} />
+					<img src={Kokuban} alt="problem" style={{width: '80%', height: 'auto'}} />
 				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						黒板にかかれた枠だけを見ると言葉になっています。
@@ -133,6 +138,14 @@ function EditorialContent() {
 						Step2
 					</Typography>
 					</Box>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Steptwo} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						この4問の謎を解く必要があるようです。
@@ -217,6 +230,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						文実から渡されたパズルにピースをはめていくと、下図のようになりました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Pazuru} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						これで、埋めるべきはあと14マスになりました。
 					</Typography>
@@ -231,6 +252,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						1×7のピース4つを全て立てて埋めることで、このように全てのピースを隙間なく敷き詰めることができました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Pazuru_kansei} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						しかし、このまま文実に提出すると、
 						<br />
@@ -249,12 +278,12 @@ function EditorialContent() {
 						ピースの境目を見ると、この模様が隠れていました。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						つまり、ここは(ほげほげ)色で塗る必要がありそうです。
+						つまり、ここは青色で塗る必要がありそうです。
 						<br />
-						面積はさしがねで測ると2×7=14cmとわかります。
+						面積はさしがねで測ると2×7=14㎠とわかります。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						では、ペイン太使用書に(ほげほげ)色、"風にのせて"、14cmと書き、一緒に提出してみましょう。
+						では、ペイン太使用書に青色、"風にのせて"、14cmと書き、一緒に提出してみましょう。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						すると、展示品の完成カードをもらうことができ、このデコを完成させることができました！
@@ -325,15 +354,15 @@ function EditorialContent() {
 					あなたの身近にあった、例えば公演中もずっとあなたの視界に入っていたような…
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-					そうです。左から(ほげほげ)番目の模様は、<Typography component="span" variant="h6" sx={{ fontSize: '1.5rem', display: 'inline', fontFamily: 'serif' }}>教室の床の模様と一致していた</Typography>のです。
+					そうです。左上の謎の模様は、<Typography component="span" variant="h6" sx={{ fontSize: '1.5rem', display: 'inline', fontFamily: 'serif' }}>教室の床の模様と一致していた</Typography>のです。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						ということは、この教室の床全体を(ほげほげ)色に塗らなければなりません。
+						ということは、この教室の床全体を白色に塗らなければなりません。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						早速ペイン太に記入していきましょう。
 						<br />
-						色は(ほげほげ)色、塗る場所は床、面積はストーリーシートに書かれていたMAPを用いると
+						色は白色、塗る場所は床、面積はストーリーシートに書かれていたMAPを用いると
 						<br />
 						6×10=60㎡=600000㎠と求めることができます。
 					</Typography>

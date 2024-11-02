@@ -20,7 +20,7 @@ const Header = () => {
 		}
 		setIsDrawerOpen((prev) => !prev);
 	};
-	const menuItems = ['Home', 'Editorial', 'News', '中3合同HP'];
+	const menuItems = ['Home', 'Editorial', 'News', 'Web謎', '中3合同HP'];
 	const getLink = (item) => {
 		switch (item) {
 		case 'Home':
@@ -29,6 +29,8 @@ const Header = () => {
 			return '/introduction/b/editorial_form';
 		case 'News':
 			return '/introduction/b/news';
+		case 'Web謎':
+			return '/introduction/b/webnazo'
 		case '中3合同HP':
 			return '';
 		default:
