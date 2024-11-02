@@ -14,7 +14,8 @@ import Bphoto from './components/introduction/3b-components/photo';
 import Bnews from './components/introduction/3b-components/News';
 import BLayout from './components/introduction/3b-components/layout';
 import BLayout2 from './components/introduction/3b-components/layout2';
-import Bnazotoki from './components/introduction/3b-components/nazotoki';
+import Bnazotoki from './components/introduction/3b-components/smartphone/webnazo_content';
+import Bnazotoki2 from './components/introduction/3b-components/smartphone/webnazo';
 import Beditorial_form from './components/introduction/3b-components/smartphone/editorial/editorial_form';
 import Beditorial from './components/introduction/3b-components/smartphone/editorial/editorial_content';
 import Layoutdefault from './components/layout';
@@ -72,6 +73,8 @@ function App() {
 				<Route path="introduction/b/news" element={<BLayout><Bnews box_width='96%' /></BLayout>} />
 				<Route path="introduction/b/editorial_form" element={<BLayout><Beditorial_form /></BLayout>} />
 				<Route path="introduction/b/editorial" element={<BLayout2><Beditorial /></BLayout2>} />
+				<Route path="introduction/b/webnazo" element={<BLayout2><Bnazotoki /></BLayout2>} />
+				<Route path="introduction/b/webnazo_clear" element={<BLayout2><Bnazotoki2 /></BLayout2>} />
 			</Routes>
 			<Routes>
 				<Route path="/introduction/*" element={<Introduction />} />
