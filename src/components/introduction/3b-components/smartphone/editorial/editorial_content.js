@@ -17,6 +17,8 @@ import Shiyousyo from './img/shiyousyo.png';
 import Shiyousyo_zero from './img/shiyousyo_zero.png';
 import Uramen from './img/uramen.png';
 import Kokuban from './img/kokuban.jpg';
+import Pazuru_kansei from './img/pazuru_kansei.jpg';
+import Steptwo from './img/step2.jpg';
 
 function EditorialContent() {
 	return (
@@ -63,7 +65,7 @@ function EditorialContent() {
 					<img src={Sashigane} alt="problem" style={{width: '30%', height: 'auto'}} />
 				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
-						さしがねを直角に合わせて3cmのところにある文字を拾いましょう。
+						さしがねを直角に合わせて5cmのところにある文字を拾いましょう。
 						<br />
 						「く」も直角であることに気を付けて文字を拾うと「こたえははっぴ」と出てくるため、答えは「はっぴ」。
 					</Typography>
@@ -136,6 +138,14 @@ function EditorialContent() {
 						Step2
 					</Typography>
 					</Box>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Steptwo} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						この4問の謎を解く必要があるようです。
@@ -220,6 +230,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						文実から渡されたパズルにピースをはめていくと、下図のようになりました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Pazuru} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						これで、埋めるべきはあと14マスになりました。
 					</Typography>
@@ -234,6 +252,14 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						1×7のピース4つを全て立てて埋めることで、このように全てのピースを隙間なく敷き詰めることができました。
 					</Typography>
+					<Box sx={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					gap: 2
+				}}>
+					<img src={Pazuru_kansei} alt="problem" style={{width: '80%', height: 'auto'}} />
+				</Box>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						しかし、このまま文実に提出すると、
 						<br />
@@ -254,7 +280,7 @@ function EditorialContent() {
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						つまり、ここは青色で塗る必要がありそうです。
 						<br />
-						面積はさしがねで測ると2×7=14cmとわかります。
+						面積はさしがねで測ると2×7=14㎠とわかります。
 					</Typography>
 					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '15px'}}>
 						では、ペイン太使用書に青色、"風にのせて"、14cmと書き、一緒に提出してみましょう。
