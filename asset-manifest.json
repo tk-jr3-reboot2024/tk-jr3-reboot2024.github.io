@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.52eb81ae.js",
+    "main.js": "/static/js/main.14eea411.js",
     "static/js/453.d5ae8d89.chunk.js": "/static/js/453.d5ae8d89.chunk.js",
     "static/media/epilogue.jpg": "/static/media/epilogue.482ab7a28589c403bf07.jpg",
+    "static/media/pazuru_kansei.jpg": "/static/media/pazuru_kansei.24208a7f27f737cc476e.jpg",
     "static/media/pazuru.jpg": "/static/media/pazuru.da960d7c5f5ba463ac26.jpg",
     "static/media/sashigane.png": "/static/media/sashigane.58b9840bbadf7926d4e2.png",
     "static/media/titlelogo3.jpg": "/static/media/titlelogo3.a4f0af1bd98189f8f4c9.jpg",
@@ -14,6 +15,7 @@
     "static/media/problem_one.png": "/static/media/problem_one.99dccd84629b8fdf0329.png",
     "static/media/titlelogo2.jpg": "/static/media/titlelogo2.09a285e869cdf8c89988.jpg",
     "static/media/uramen.png": "/static/media/uramen.34e2476ab30f06cba329.png",
+    "static/media/step2.jpg": "/static/media/step2.c43616a4fd1b33d55aad.jpg",
     "static/media/shiyousyo.png": "/static/media/shiyousyo.697f61639a90771d19a4.png",
     "static/media/moyou.png": "/static/media/moyou.aa3630fae29c8d6962d1.png",
     "static/media/kanseisyo.png": "/static/media/kanseisyo.f6674fbfc683ee5d03bc.png",
@@ -26,11 +28,11 @@
     "static/media/problem_three.png": "/static/media/problem_three.029547d390eed1754783.png",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.52eb81ae.js.map": "/static/js/main.52eb81ae.js.map",
+    "main.14eea411.js.map": "/static/js/main.14eea411.js.map",
     "453.d5ae8d89.chunk.js.map": "/static/js/453.d5ae8d89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.52eb81ae.js"
+    "static/js/main.14eea411.js"
   ]
 }
