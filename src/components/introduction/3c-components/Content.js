@@ -91,7 +91,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12 }}>
+						<Grid size={{ xs: 12, sm: 6}}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -111,7 +111,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6 }}>
+						<Grid size={{ xs: 12, sm: 6}}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -128,6 +128,24 @@ function Content() {
 								</CardContent>
 								<CardActions>
 									<Button size="small" href="/introduction/c/story">詳細はこちら</Button>
+								</CardActions>
+							</Card>
+						</Grid>
+						<Grid size={{ xs: 12, sm: 6}}>
+							<Card sx={{}}>
+								<CardContent>
+									<Typography variant="h5" component="div">
+										「ありのままの筑駒」学校紹介
+									</Typography>
+									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+										<i>Introduction to Tsukukoma</i>
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
+										映画の中でも登場する「ありのままの筑駒」の様子を詳しくお伝えします！
+									</Typography>
+								</CardContent>
+								<CardActions>
+									<Button size="small" href="/introduction/c/tsukukoma">詳細はこちら</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -159,24 +177,6 @@ function Content() {
 export default Content;
 
 /*
-<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-							<Card sx={{}}>
-								<CardContent>
-									<Typography variant="h5" component="div">
-										「ありのままの筑駒」学校紹介
-									</Typography>
-									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
-										<i>Introduction to Tsukukoma</i>
-									</Typography>
-									<Typography variant="body2" sx={{ minHeight: 48 }}>
-										映画の中でも登場する「ありのままの筑駒」の様子を詳しくお伝えします！
-									</Typography>
-								</CardContent>
-								<CardActions>
-									<Button size="small" href="/introduction/c/tsukukoma">詳細はこちら</Button>
-								</CardActions>
-							</Card>
-						</Grid>
 						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
 							<Card sx={{}}>
 								<CardContent>
