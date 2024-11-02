@@ -50,7 +50,9 @@ function Webnazo_content(){
 					color: '#fff'
 				}}
 				>
-					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '30px'}}>
+					<Typography variant="body1" sx={{fontFamily: 'serif', fontSize: '25px'}}>
+						一番下の行が表すものを
+						<br />
 						カタカナで答えてください。
 					</Typography>
 					<TextField
