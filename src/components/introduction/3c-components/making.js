@@ -12,8 +12,7 @@ import making015 from './img/making015.jpg';
 import making007 from './img/making007.jpg';
 import making004 from './img/making004.jpg';
 import making002 from './img/making002.jpg';
-import making001a from './img/making001a.jpg';
-import making001b from './img/making001b.jpg';
+import making001 from './img/making001.jpg';
 
 
 function News1() {
@@ -220,7 +219,7 @@ function News1() {
 						<br />
 						<Box
 							component="img"
-							src={making001b}
+							src={making001}
 							sx={{
 								width: { xs: '100%', md: '750px' },
 								height: '100%',
