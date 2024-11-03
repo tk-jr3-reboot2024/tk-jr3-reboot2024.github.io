@@ -1,17 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.d90704da.css",
-    "main.js": "/static/js/main.6692c2c4.js",
+    "main.js": "/static/js/main.6abf789d.js",
     "static/js/453.d5ae8d89.chunk.js": "/static/js/453.d5ae8d89.chunk.js",
+    "static/media/making130.jpg": "/static/media/making130.9f634537ef70f2b9d304.jpg",
+    "static/media/making025.jpg": "/static/media/making025.51c4c8a95577f8515977.jpg",
+    "static/media/making004.jpg": "/static/media/making004.92d2040bf930496bde87.jpg",
+    "static/media/making007.jpg": "/static/media/making007.52dd43c343907ee7a645.jpg",
+    "static/media/making002.jpg": "/static/media/making002.cdff9d704e5ae9bc4955.jpg",
+    "static/media/making035.jpg": "/static/media/making035.2429e989f13112be688f.jpg",
     "static/media/epilogue.jpg": "/static/media/epilogue.482ab7a28589c403bf07.jpg",
+    "static/media/making030.jpg": "/static/media/making030.2af980814b093b5bffb6.jpg",
     "static/media/pazuru_kansei.jpg": "/static/media/pazuru_kansei.24208a7f27f737cc476e.jpg",
+    "static/media/making001.jpg": "/static/media/making001.978a76c2483c440b99e3.jpg",
     "static/media/pazuru.jpg": "/static/media/pazuru.da960d7c5f5ba463ac26.jpg",
+    "static/media/making055.jpg": "/static/media/making055.b9a0936cd15a62824623.jpg",
     "static/media/sashigane.png": "/static/media/sashigane.58b9840bbadf7926d4e2.png",
     "static/media/titlelogo3.jpg": "/static/media/titlelogo3.a4f0af1bd98189f8f4c9.jpg",
     "static/media/mozaiku.jpg": "/static/media/mozaiku.9d67f9a4e8af9962eb8c.jpg",
     "static/media/paneru.png": "/static/media/paneru.723315a4a959b6f03f58.png",
     "static/media/titlelogo1.jpg": "/static/media/titlelogo1.75e123d77b3cea1688f3.jpg",
     "static/media/tatekan.jpg": "/static/media/tatekan.dcadafae2e5022a17c53.jpg",
+    "static/media/making015.jpg": "/static/media/making015.62b1fe480cfba8450fe4.jpg",
     "static/media/problem_one.png": "/static/media/problem_one.99dccd84629b8fdf0329.png",
     "static/media/titlelogo2.jpg": "/static/media/titlelogo2.09a285e869cdf8c89988.jpg",
     "static/media/uramen.png": "/static/media/uramen.34e2476ab30f06cba329.png",
@@ -29,11 +39,11 @@
     "static/media/problem_three.png": "/static/media/problem_three.029547d390eed1754783.png",
     "index.html": "/index.html",
     "main.d90704da.css.map": "/static/css/main.d90704da.css.map",
-    "main.6692c2c4.js.map": "/static/js/main.6692c2c4.js.map",
+    "main.6abf789d.js.map": "/static/js/main.6abf789d.js.map",
     "453.d5ae8d89.chunk.js.map": "/static/js/453.d5ae8d89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90704da.css",
-    "static/js/main.6692c2c4.js"
+    "static/js/main.6abf789d.js"
   ]
 }
