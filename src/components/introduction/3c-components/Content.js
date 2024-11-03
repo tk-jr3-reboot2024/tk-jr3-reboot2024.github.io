@@ -111,7 +111,7 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6}}>
+						<Grid size={{ xs: 12, lg: 6}}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -149,7 +149,25 @@ function Content() {
 								</CardActions>
 							</Card>
 						</Grid>
-						<Grid size={{ xs: 12, sm: 6}}>
+						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+							<Card sx={{}}>
+								<CardContent>
+									<Typography variant="h5" component="div">
+										映画制作の裏側
+									</Typography>
+									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+										<i>Behind the Scenes</i>
+									</Typography>
+									<Typography variant="body2" sx={{ minHeight: 48 }}>
+										「翔んで筑駒」の制作風景や制作秘話を公開!
+									</Typography>
+								</CardContent>
+								<CardActions>
+									<Button size="small" href="/introduction/c/making">詳細はこちら</Button>
+								</CardActions>
+							</Card>
+						</Grid>
+						<Grid size={{ xs: 12, sm: 6, lg: 4}}>
 							<Card sx={{}}>
 								<CardContent>
 									<Typography variant="h5" component="div">
@@ -177,22 +195,5 @@ function Content() {
 export default Content;
 
 /*
-						<Grid size={{ xs: 12, sm: 6, lg: 4 }}>
-							<Card sx={{}}>
-								<CardContent>
-									<Typography variant="h5" component="div">
-										映画制作の裏側
-									</Typography>
-									<Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
-										<i>Behind the Scenes</i>
-									</Typography>
-									<Typography variant="body2" sx={{ minHeight: 48 }}>
-										「翔んで筑駒」の制作風景や制作秘話を公開!
-									</Typography>
-								</CardContent>
-								<CardActions>
-									<Button size="small" href="/introduction/c/making">詳細はこちら</Button>
-								</CardActions>
-							</Card>
-						</Grid>
+						
 */
